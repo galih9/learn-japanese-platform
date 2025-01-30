@@ -2,11 +2,9 @@ import { DndProvider } from "react-dnd"
 import { HTML5Backend } from "react-dnd-html5-backend"
 import "./App.css"
 import GamePage from "./pages"
-import { LogView } from "./pages/logger"
-import { useEffect, useMemo, useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { initParticlesEngine } from "@tsparticles/react"
 import { loadSlim } from "@tsparticles/slim"
-import { ISourceOptions, MoveDirection, OutMode } from "@tsparticles/engine"
 import { isTouchDevice } from "./utils/engine"
 import { TouchBackend } from "react-dnd-touch-backend"
 
@@ -50,29 +48,15 @@ const App = () => {
   if (init) {
     return (
       <>
-        {/* <Particles id="tsparticles" options={particleOptions} /> */}
         <div className="App">
           {/* <audio ref={audioRef} src={AUDIO} loop /> */}
           <DndProvider backend={backend}>
             <GamePage />
-            {/* <div>Powered by Motion Framer, RTK Query, made by kiki</div> */}
-            <LogView />
           </DndProvider>
         </div>
       </>
     )
   }
-
-  // return (
-  //   <div className="App">
-  //     {/* <audio ref={audioRef} src={AUDIO} loop /> */}
-  //     <DndProvider backend={HTML5Backend}>
-  //       <GamePage />
-  //       <div>Powered by Motion Framer, RTK Query, React, Made by kiki</div>
-  //       {/* <LogView /> */}
-  //     </DndProvider>
-  //   </div>
-  // )
 }
 
 export default App
