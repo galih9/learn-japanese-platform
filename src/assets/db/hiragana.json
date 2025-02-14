@@ -1,0 +1,232 @@
+[
+    {
+        "hira": "あ",
+        "alpha": "a",
+        "id": "HI01"
+    },
+    {
+        "hira": "い",
+        "alpha": "i",
+        "id": "HI02"
+    },
+    {
+        "hira": "う",
+        "alpha": "u",
+        "id": "HI03"
+    },
+    {
+        "hira": "え",
+        "alpha": "e",
+        "id": "HI04"
+    },
+    {
+        "hira": "お",
+        "alpha": "o",
+        "id": "HI05"
+    },
+    {
+        "hira": "か",
+        "alpha": "ka",
+        "id": "HI06"
+    },
+    {
+        "hira": "き",
+        "alpha": "ki",
+        "id": "HI07"
+    },
+    {
+        "hira": "く",
+        "alpha": "ku",
+        "id": "HI08"
+    },
+    {
+        "hira": "け",
+        "alpha": "ke",
+        "id": "HI09"
+    },
+    {
+        "hira": "こ",
+        "alpha": "ko",
+        "id": "HI10"
+    },
+    {
+        "hira": "さ",
+        "alpha": "sa",
+        "id": "HI11"
+    },
+    {
+        "hira": "し",
+        "alpha": "shi",
+        "id": "HI12"
+    },
+    {
+        "hira": "す",
+        "alpha": "su",
+        "id": "HI13"
+    },
+    {
+        "hira": "せ",
+        "alpha": "se",
+        "id": "HI14"
+    },
+    {
+        "hira": "そ",
+        "alpha": "so",
+        "id": "HI15"
+    },
+    {
+        "hira": "た",
+        "alpha": "ta",
+        "id": "HI16"
+    },
+    {
+        "hira": "ち",
+        "alpha": "chi",
+        "id": "HI17"
+    },
+    {
+        "hira": "つ",
+        "alpha": "tsu",
+        "id": "HI18"
+    },
+    {
+        "hira": "て",
+        "alpha": "te",
+        "id": "HI19"
+    },
+    {
+        "hira": "と",
+        "alpha": "to",
+        "id": "HI20"
+    },
+    {
+        "hira": "な",
+        "alpha": "na",
+        "id": "HI21"
+    },
+    {
+        "hira": "に",
+        "alpha": "ni",
+        "id": "HI22"
+    },
+    {
+        "hira": "ぬ",
+        "alpha": "nu",
+        "id": "HI23"
+    },
+    {
+        "hira": "ね",
+        "alpha": "ne",
+        "id": "HI24"
+    },
+    {
+        "hira": "の",
+        "alpha": "no",
+        "id": "HI25"
+    },
+    {
+        "hira": "は",
+        "alpha": "ha",
+        "id": "HI26"
+    },
+    {
+        "hira": "ひ",
+        "alpha": "hi",
+        "id": "HI27"
+    },
+    {
+        "hira": "ふ",
+        "alpha": "fu",
+        "id": "HI28"
+    },
+    {
+        "hira": "へ",
+        "alpha": "he",
+        "id": "HI29"
+    },
+    {
+        "hira": "ほ",
+        "alpha": "ho",
+        "id": "HI30"
+    },
+    {
+        "hira": "ま",
+        "alpha": "ma",
+        "id": "HI31"
+    },
+    {
+        "hira": "み",
+        "alpha": "mi",
+        "id": "HI32"
+    },
+    {
+        "hira": "む",
+        "alpha": "mu",
+        "id": "HI33"
+    },
+    {
+        "hira": "め",
+        "alpha": "me",
+        "id": "HI34"
+    },
+    {
+        "hira": "も",
+        "alpha": "mo",
+        "id": "HI35"
+    },
+    {
+        "hira": "や",
+        "alpha": "ya",
+        "id": "HI36"
+    },
+    {
+        "hira": "ゆ",
+        "alpha": "yu",
+        "id": "HI37"
+    },
+    {
+        "hira": "よ",
+        "alpha": "yo",
+        "id": "HI38"
+    },
+    {
+        "hira": "ら",
+        "alpha": "ra",
+        "id": "HI39"
+    },
+    {
+        "hira": "り",
+        "alpha": "ri",
+        "id": "HI40"
+    },
+    {
+        "hira": "る",
+        "alpha": "ru",
+        "id": "HI41"
+    },
+    {
+        "hira": "れ",
+        "alpha": "re",
+        "id": "HI42"
+    },
+    {
+        "hira": "ろ",
+        "alpha": "ro",
+        "id": "HI43"
+    },
+    {
+        "hira": "わ",
+        "alpha": "wa",
+        "id": "HI44"
+    },
+    {
+        "hira": "を",
+        "alpha": "wo",
+        "id": "HI45"
+    },
+    {
+        "hira": "ん",
+        "alpha": "n",
+        "id": "HI46"
+    }
+]

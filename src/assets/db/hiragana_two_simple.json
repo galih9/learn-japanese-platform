@@ -1,0 +1,205 @@
+[
+    {
+        "hira": "あめ",
+        "alpha": "ame",
+        "meaning": [
+            "rain",
+            "candy"
+        ],
+        "id": "HVT_001"
+    },
+    {
+        "hira": "いぬ",
+        "alpha": "inu",
+        "meaning": [
+            "dog"
+        ],
+        "id": "HVT_002"
+    },
+    {
+        "hira": "うみ",
+        "alpha": "umi",
+        "meaning": [
+            "sea"
+        ],
+        "id": "HVT_003"
+    },
+    {
+        "hira": "えき",
+        "alpha": "eki",
+        "meaning": [
+            "station"
+        ],
+        "id": "HVT_004"
+    },
+    {
+        "hira": "おに",
+        "alpha": "oni",
+        "meaning": [
+            "demon"
+        ],
+        "id": "HVT_005"
+    },
+    {
+        "hira": "あし",
+        "alpha": "ashi",
+        "meaning": [
+            "foot",
+            "leg"
+        ],
+        "id": "HVT_006"
+    },
+    {
+        "hira": "いえ",
+        "alpha": "ie",
+        "meaning": [
+            "house"
+        ],
+        "id": "HVT_007"
+    },
+    {
+        "hira": "うた",
+        "alpha": "uta",
+        "meaning": [
+            "song"
+        ],
+        "id": "HVT_008"
+    },
+    {
+        "hira": "えだ",
+        "alpha": "eda",
+        "meaning": [
+            "branch"
+        ],
+        "id": "HVT_009"
+    },
+    {
+        "hira": "おゆ",
+        "alpha": "oyu",
+        "meaning": [
+            "hot water"
+        ],
+        "id": "HVT_010"
+    },
+    {
+        "hira": "かみ",
+        "alpha": "kami",
+        "meaning": [
+            "paper",
+            "god"
+        ],
+        "id": "HVT_011"
+    },
+    {
+        "hira": "きた",
+        "alpha": "kita",
+        "meaning": [
+            "north"
+        ],
+        "id": "HVT_012"
+    },
+    {
+        "hira": "くち",
+        "alpha": "kuchi",
+        "meaning": [
+            "mouth"
+        ],
+        "id": "HVT_013"
+    },
+    {
+        "hira": "けむり",
+        "alpha": "kemuri",
+        "meaning": [
+            "smoke"
+        ],
+        "id": "HVT_014"
+    },
+    {
+        "hira": "こえ",
+        "alpha": "koe",
+        "meaning": [
+            "voice"
+        ],
+        "id": "HVT_015"
+    },
+    {
+        "hira": "さけ",
+        "alpha": "sake",
+        "meaning": [
+            "alcohol"
+        ],
+        "id": "HVT_016"
+    },
+    {
+        "hira": "しお",
+        "alpha": "shio",
+        "meaning": [
+            "salt"
+        ],
+        "id": "HVT_017"
+    },
+    {
+        "hira": "すし",
+        "alpha": "sushi",
+        "meaning": [
+            "sushi"
+        ],
+        "id": "HVT_018"
+    },
+    {
+        "hira": "せみ",
+        "alpha": "semi",
+        "meaning": [
+            "cicada"
+        ],
+        "id": "HVT_019"
+    },
+    {
+        "hira": "そら",
+        "alpha": "sora",
+        "meaning": [
+            "sky"
+        ],
+        "id": "HVT_020"
+    },
+    {
+        "hira": "たに",
+        "alpha": "tani",
+        "meaning": [
+            "valley"
+        ],
+        "id": "HVT_021"
+    },
+    {
+        "hira": "ちず",
+        "alpha": "chizu",
+        "meaning": [
+            "map"
+        ],
+        "id": "HVT_022"
+    },
+    {
+        "hira": "つき",
+        "alpha": "tsuki",
+        "meaning": [
+            "moon"
+        ],
+        "id": "HVT_023"
+    },
+    {
+        "hira": "てら",
+        "alpha": "tera",
+        "meaning": [
+            "temple"
+        ],
+        "id": "HVT_024"
+    },
+    {
+        "hira": "とり",
+        "alpha": "tori",
+        "meaning": [
+            "bird"
+        ],
+        "id": "HVT_025"
+    }
+]

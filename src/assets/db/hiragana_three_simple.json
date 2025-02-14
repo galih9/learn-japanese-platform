@@ -1,0 +1,171 @@
+[
+
+    {
+        "hira": "さくら",
+        "alpha": "sakura",
+        "meaning": [
+            "cherry blossom"
+        ],
+        "id": "HWD_001"
+    },
+    {
+        "hira": "あさひ",
+        "alpha": "asahi",
+        "meaning": [
+            "morning sun"
+        ],
+        "id": "HWD_002"
+    },
+    {
+        "hira": "いちご",
+        "alpha": "ichigo",
+        "meaning": [
+            "strawberry"
+        ],
+        "id": "HWD_003"
+    },
+    {
+        "hira": "うさぎ",
+        "alpha": "usagi",
+        "meaning": [
+            "rabbit"
+        ],
+        "id": "HWD_004"
+    },
+    {
+        "hira": "えほん",
+        "alpha": "ehon",
+        "meaning": [
+            "picture book"
+        ],
+        "id": "HWD_005"
+    },
+    {
+        "hira": "おかし",
+        "alpha": "okashi",
+        "meaning": [
+            "sweets"
+        ],
+        "id": "HWD_006"
+    },
+    {
+        "hira": "かいが",
+        "alpha": "kaiga",
+        "meaning": [
+            "painting"
+        ],
+        "id": "HWD_007"
+    },
+    {
+        "hira": "きもの",
+        "alpha": "kimono",
+        "meaning": [
+            "kimono"
+        ],
+        "id": "HWD_008"
+    },
+    {
+        "hira": "くるま",
+        "alpha": "kuruma",
+        "meaning": [
+            "car"
+        ],
+        "id": "HWD_009"
+    },
+    {
+        "hira": "けいたい",
+        "alpha": "keitai",
+        "meaning": [
+            "mobile phone"
+        ],
+        "id": "HWD_010"
+    },
+    {
+        "hira": "こども",
+        "alpha": "kodomo",
+        "meaning": [
+            "child"
+        ],
+        "id": "HWD_011"
+    },
+    {
+        "hira": "さかな",
+        "alpha": "sakana",
+        "meaning": [
+            "fish"
+        ],
+        "id": "HWD_012"
+    },
+    {
+        "hira": "しんぶん",
+        "alpha": "shinbun",
+        "meaning": [
+            "newspaper"
+        ],
+        "id": "HWD_013"
+    },
+    {
+        "hira": "すいか",
+        "alpha": "suika",
+        "meaning": [
+            "watermelon"
+        ],
+        "id": "HWD_014"
+    },
+    {
+        "hira": "せんせい",
+        "alpha": "sensei",
+        "meaning": [
+            "teacher"
+        ],
+        "id": "HWD_015"
+    },
+    {
+        "hira": "そふぼ",
+        "alpha": "sofubo",
+        "meaning": [
+            "grandparents"
+        ],
+        "id": "HWD_016"
+    },
+    {
+        "hira": "たまご",
+        "alpha": "tamago",
+        "meaning": [
+            "egg"
+        ],
+        "id": "HWD_017"
+    },
+    {
+        "hira": "ちかてつ",
+        "alpha": "chikatetsu",
+        "meaning": [
+            "subway"
+        ],
+        "id": "HWD_018"
+    },
+    {
+        "hira": "つくえ",
+        "alpha": "tsukue",
+        "meaning": [
+            "desk"
+        ],
+        "id": "HWD_019"
+    },
+    {
+        "hira": "てがみ",
+        "alpha": "tegami",
+        "meaning": [
+            "letter"
+        ],
+        "id": "HWD_020"
+    },
+    {
+        "hira": "とけい",
+        "alpha": "tokei",
+        "meaning": [
+            "clock"
+        ],
+        "id": "HWD_021"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "hira": "ギャ",
+        "alpha": "gya",
+        "id": "KY01"
+    },
+    {
+        "hira": "ギュ",
+        "alpha": "gyu",
+        "id": "KY02"
+    },
+    {
+        "hira": "ギョ",
+        "alpha": "gyo",
+        "id": "KY03"
+    },
+    {
+        "hira": "ジャ",
+        "alpha": "ja",
+        "id": "KY04"
+    },
+    {
+        "hira": "ジュ",
+        "alpha": "ju",
+        "id": "KY05"
+    },
+    {
+        "hira": "ジョ",
+        "alpha": "jo",
+        "id": "KY06"
+    },
+    {
+        "hira": "ビャ",
+        "alpha": "bya",
+        "id": "KY07"
+    },
+    {
+        "hira": "ビュ",
+        "alpha": "byu",
+        "id": "KY08"
+    },
+    {
+        "hira": "ビョ",
+        "alpha": "byo",
+        "id": "KY09"
+    },
+    {
+        "hira": "ピャ",
+        "alpha": "pya",
+        "id": "KY10"
+    },
+    {
+        "hira": "ピュ",
+        "alpha": "pyu",
+        "id": "KY11"
+    },
+    {
+        "hira": "ピョ",
+        "alpha": "pyo",
+        "id": "KY12"
+    }
+]

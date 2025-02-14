@@ -1,0 +1,127 @@
+[
+    {
+        "hira": "ガ",
+        "alpha": "ga",
+        "id": "KD01"
+    },
+    {
+        "hira": "ギ",
+        "alpha": "gi",
+        "id": "KD02"
+    },
+    {
+        "hira": "グ",
+        "alpha": "gu",
+        "id": "KD03"
+    },
+    {
+        "hira": "ゲ",
+        "alpha": "ge",
+        "id": "KD04"
+    },
+    {
+        "hira": "ゴ",
+        "alpha": "go",
+        "id": "KD05"
+    },
+    {
+        "hira": "ザ",
+        "alpha": "za",
+        "id": "KD06"
+    },
+    {
+        "hira": "ジ",
+        "alpha": "ji",
+        "id": "KD07"
+    },
+    {
+        "hira": "ズ",
+        "alpha": "zu",
+        "id": "KD08"
+    },
+    {
+        "hira": "ゼ",
+        "alpha": "ze",
+        "id": "KD09"
+    },
+    {
+        "hira": "ゾ",
+        "alpha": "zo",
+        "id": "KD10"
+    },
+    {
+        "hira": "ダ",
+        "alpha": "da",
+        "id": "KD11"
+    },
+    {
+        "hira": "ヂ",
+        "alpha": "ji",
+        "id": "KD12"
+    },
+    {
+        "hira": "ヅ",
+        "alpha": "zu",
+        "id": "KD13"
+    },
+    {
+        "hira": "デ",
+        "alpha": "de",
+        "id": "KD14"
+    },
+    {
+        "hira": "ド",
+        "alpha": "do",
+        "id": "KD15"
+    },
+    {
+        "hira": "バ",
+        "alpha": "ba",
+        "id": "KD16"
+    },
+    {
+        "hira": "ビ",
+        "alpha": "bi",
+        "id": "KD17"
+    },
+    {
+        "hira": "ブ",
+        "alpha": "bu",
+        "id": "KD18"
+    },
+    {
+        "hira": "ベ",
+        "alpha": "be",
+        "id": "KD19"
+    },
+    {
+        "hira": "ボ",
+        "alpha": "bo",
+        "id": "KD20"
+    },
+    {
+        "hira": "パ",
+        "alpha": "pa",
+        "id": "KD21"
+    },
+    {
+        "hira": "ピ",
+        "alpha": "pi",
+        "id": "KD22"
+    },
+    {
+        "hira": "プ",
+        "alpha": "pu",
+        "id": "KD23"
+    },
+    {
+        "hira": "ペ",
+        "alpha": "pe",
+        "id": "KD24"
+    },
+    {
+        "hira": "ポ",
+        "alpha": "po",
+        "id": "KD25"
+    }
+]

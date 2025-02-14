@@ -1,0 +1,232 @@
+[
+    {
+        "hira": "ア",
+        "alpha": "a",
+        "id": "KA01"
+    },
+    {
+        "hira": "イ",
+        "alpha": "i",
+        "id": "KA02"
+    },
+    {
+        "hira": "ウ",
+        "alpha": "u",
+        "id": "KA03"
+    },
+    {
+        "hira": "エ",
+        "alpha": "e",
+        "id": "KA04"
+    },
+    {
+        "hira": "オ",
+        "alpha": "o",
+        "id": "KA05"
+    },
+    {
+        "hira": "カ",
+        "alpha": "ka",
+        "id": "KA06"
+    },
+    {
+        "hira": "キ",
+        "alpha": "ki",
+        "id": "KA07"
+    },
+    {
+        "hira": "ク",
+        "alpha": "ku",
+        "id": "KA08"
+    },
+    {
+        "hira": "ケ",
+        "alpha": "ke",
+        "id": "KA09"
+    },
+    {
+        "hira": "コ",
+        "alpha": "ko",
+        "id": "KA10"
+    },
+    {
+        "hira": "サ",
+        "alpha": "sa",
+        "id": "KA11"
+    },
+    {
+        "hira": "シ",
+        "alpha": "shi",
+        "id": "KA12"
+    },
+    {
+        "hira": "ス",
+        "alpha": "su",
+        "id": "KA13"
+    },
+    {
+        "hira": "セ",
+        "alpha": "se",
+        "id": "KA14"
+    },
+    {
+        "hira": "ソ",
+        "alpha": "so",
+        "id": "KA15"
+    },
+    {
+        "hira": "タ",
+        "alpha": "ta",
+        "id": "KA16"
+    },
+    {
+        "hira": "チ",
+        "alpha": "chi",
+        "id": "KA17"
+    },
+    {
+        "hira": "ツ",
+        "alpha": "tsu",
+        "id": "KA18"
+    },
+    {
+        "hira": "テ",
+        "alpha": "te",
+        "id": "KA19"
+    },
+    {
+        "hira": "ト",
+        "alpha": "to",
+        "id": "KA20"
+    },
+    {
+        "hira": "ナ",
+        "alpha": "na",
+        "id": "KA21"
+    },
+    {
+        "hira": "ニ",
+        "alpha": "ni",
+        "id": "KA22"
+    },
+    {
+        "hira": "ヌ",
+        "alpha": "nu",
+        "id": "KA23"
+    },
+    {
+        "hira": "ネ",
+        "alpha": "ne",
+        "id": "KA24"
+    },
+    {
+        "hira": "ノ",
+        "alpha": "no",
+        "id": "KA25"
+    },
+    {
+        "hira": "ハ",
+        "alpha": "ha",
+        "id": "KA26"
+    },
+    {
+        "hira": "ヒ",
+        "alpha": "hi",
+        "id": "KA27"
+    },
+    {
+        "hira": "フ",
+        "alpha": "fu",
+        "id": "KA28"
+    },
+    {
+        "hira": "ヘ",
+        "alpha": "he",
+        "id": "KA29"
+    },
+    {
+        "hira": "ホ",
+        "alpha": "ho",
+        "id": "KA30"
+    },
+    {
+        "hira": "マ",
+        "alpha": "ma",
+        "id": "KA31"
+    },
+    {
+        "hira": "ミ",
+        "alpha": "mi",
+        "id": "KA32"
+    },
+    {
+        "hira": "ム",
+        "alpha": "mu",
+        "id": "KA33"
+    },
+    {
+        "hira": "メ",
+        "alpha": "me",
+        "id": "KA34"
+    },
+    {
+        "hira": "モ",
+        "alpha": "mo",
+        "id": "KA35"
+    },
+    {
+        "hira": "ヤ",
+        "alpha": "ya",
+        "id": "KA36"
+    },
+    {
+        "hira": "ユ",
+        "alpha": "yu",
+        "id": "KA37"
+    },
+    {
+        "hira": "ヨ",
+        "alpha": "yo",
+        "id": "KA38"
+    },
+    {
+        "hira": "ラ",
+        "alpha": "ra",
+        "id": "KA39"
+    },
+    {
+        "hira": "リ",
+        "alpha": "ri",
+        "id": "KA40"
+    },
+    {
+        "hira": "ル",
+        "alpha": "ru",
+        "id": "KA41"
+    },
+    {
+        "hira": "レ",
+        "alpha": "re",
+        "id": "KA42"
+    },
+    {
+        "hira": "ロ",
+        "alpha": "ro",
+        "id": "KA43"
+    },
+    {
+        "hira": "ワ",
+        "alpha": "wa",
+        "id": "KA44"
+    },
+    {
+        "hira": "ヲ",
+        "alpha": "wo",
+        "id": "KA45"
+    },
+    {
+        "hira": "ン",
+        "alpha": "n",
+        "id": "KA46"
+    }
+]

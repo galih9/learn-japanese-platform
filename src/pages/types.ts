@@ -1,202 +1,66 @@
-export interface IInitialProps {
-  data: IHiragana[]
-}
 export type IHiragana = {
   hira: string
   alpha: string
+  id: string
+  score: number
+  modifier?: string
+  played?: boolean
+  meaning?: string[]
+}
+
+export type IPower = {
+  name: string;
+  description: string;
 }
 
 export type IResult = {
-  timeSpent: string;
-  score: number;
-  wrong: number;
-  correct: number;
-  difficulty: string;
+  timeSpent: string
+  score: number
+  wrong: number
+  correct: number
+  difficulty: string
 }
 
-export const hiragana: IHiragana[] = [
+export const powerUps = [
   {
-    hira: "あ",
-    alpha: "a",
+    name: "Extra Score",
+    description: "Add extra score modifier to random card in deck",
   },
   {
-    hira: "い",
-    alpha: "i",
+    name: "Extra Mult",
+    description: "Add extra multiplier modifier to random card in deck",
   },
   {
-    hira: "う",
-    alpha: "u",
+    name: "Hiragana Stamp",
+    description: "Increase Hiragana multiplier level",
   },
   {
-    hira: "え",
-    alpha: "e",
+    name: "Katakana Stamp",
+    description: "Increase Katakana multiplier level",
   },
   {
-    hira: "お",
-    alpha: "o",
+    name: "Shuriken",
+    description: "Increase difficulty +",
   },
   {
-    hira: "か",
-    alpha: "ka",
+    name: "Kunai",
+    description: "Increase difficulty ++",
   },
   {
-    hira: "き",
-    alpha: "ki",
+    name: "Katana",
+    description: "Increase difficulty +++",
   },
   {
-    hira: "く",
-    alpha: "ku",
+    name: "Bandage",
+    description: "Heal back to 100% health",
   },
   {
-    hira: "け",
-    alpha: "ke",
+    name: "Antidote",
+    description:
+      "Remove a random negative effect, if no negative effect applied, will gain +100.000 score",
   },
   {
-    hira: "こ",
-    alpha: "ko",
-  },
-  {
-    hira: "さ",
-    alpha: "sa",
-  },
-  {
-    hira: "し",
-    alpha: "shi",
-  },
-  {
-    hira: "す",
-    alpha: "su",
-  },
-  {
-    hira: "せ",
-    alpha: "se",
-  },
-  {
-    hira: "そ",
-    alpha: "so",
-  },
-  {
-    hira: "た",
-    alpha: "ta",
-  },
-  {
-    hira: "ち",
-    alpha: "chi",
-  },
-  {
-    hira: "つ",
-    alpha: "tsu",
-  },
-  {
-    hira: "て",
-    alpha: "te",
-  },
-  {
-    hira: "と",
-    alpha: "to",
-  },
-  {
-    hira: "な",
-    alpha: "na",
-  },
-  {
-    hira: "に",
-    alpha: "ni",
-  },
-  {
-    hira: "ぬ",
-    alpha: "nu",
-  },
-  {
-    hira: "ね",
-    alpha: "ne",
-  },
-  {
-    hira: "の",
-    alpha: "no",
-  },
-  {
-    hira: "は",
-    alpha: "ha",
-  },
-  {
-    hira: "ひ",
-    alpha: "hi",
-  },
-  {
-    hira: "ふ",
-    alpha: "fu",
-  },
-  {
-    hira: "へ",
-    alpha: "he",
-  },
-  {
-    hira: "ほ",
-    alpha: "ho",
-  },
-  {
-    hira: "ま",
-    alpha: "ma",
-  },
-  {
-    hira: "み",
-    alpha: "mi",
-  },
-  {
-    hira: "む",
-    alpha: "mu",
-  },
-  {
-    hira: "め",
-    alpha: "me",
-  },
-  {
-    hira: "も",
-    alpha: "mo",
-  },
-  {
-    hira: "や",
-    alpha: "ya",
-  },
-  {
-    hira: "ゆ",
-    alpha: "yu",
-  },
-  {
-    hira: "よ",
-    alpha: "yo",
-  },
-  {
-    hira: "ら",
-    alpha: "ra",
-  },
-  {
-    hira: "り",
-    alpha: "ri",
-  },
-  {
-    hira: "る",
-    alpha: "ru",
-  },
-  {
-    hira: "れ",
-    alpha: "re",
-  },
-  {
-    hira: "ろ",
-    alpha: "ro",
-  },
-  {
-    hira: "わ",
-    alpha: "wa",
-  },
-  {
-    hira: "を",
-    alpha: "wo",
-  },
-  {
-    hira: "ん",
-    alpha: "n",
-  },
+    name: "Ninja scroll",
+    description: "Increase all stamp"
+  }
 ]

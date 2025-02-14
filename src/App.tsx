@@ -1,12 +1,13 @@
 import { DndProvider } from "react-dnd"
 import { HTML5Backend } from "react-dnd-html5-backend"
 import "./App.css"
-import GamePage from "./pages"
+// import GamePage from "./pages"
 import { useEffect, useRef, useState } from "react"
 import { initParticlesEngine } from "@tsparticles/react"
 import { loadSlim } from "@tsparticles/slim"
 import { isTouchDevice } from "./utils/engine"
 import { TouchBackend } from "react-dnd-touch-backend"
+import LearnKana from "./modules/learn_kana"
 
 const App = () => {
   const backend = isTouchDevice() ? TouchBackend : HTML5Backend
@@ -51,7 +52,7 @@ const App = () => {
         <div className="App">
           {/* <audio ref={audioRef} src={AUDIO} loop /> */}
           <DndProvider backend={backend}>
-            <GamePage />
+            <LearnKana />
           </DndProvider>
         </div>
       </>

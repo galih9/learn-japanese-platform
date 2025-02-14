@@ -1,0 +1,127 @@
+[
+    {
+        "hira": "が",
+        "alpha": "ga",
+        "id": "HD01"
+    },
+    {
+        "hira": "ぎ",
+        "alpha": "gi",
+        "id": "HD02"
+    },
+    {
+        "hira": "ぐ",
+        "alpha": "gu",
+        "id": "HD03"
+    },
+    {
+        "hira": "げ",
+        "alpha": "ge",
+        "id": "HD04"
+    },
+    {
+        "hira": "ご",
+        "alpha": "go",
+        "id": "HD05"
+    },
+    {
+        "hira": "ざ",
+        "alpha": "za",
+        "id": "HD06"
+    },
+    {
+        "hira": "じ",
+        "alpha": "ji",
+        "id": "HD07"
+    },
+    {
+        "hira": "ず",
+        "alpha": "zu",
+        "id": "HD08"
+    },
+    {
+        "hira": "ぜ",
+        "alpha": "ze",
+        "id": "HD09"
+    },
+    {
+        "hira": "ぞ",
+        "alpha": "zo",
+        "id": "HD10"
+    },
+    {
+        "hira": "だ",
+        "alpha": "da",
+        "id": "HD11"
+    },
+    {
+        "hira": "ぢ",
+        "alpha": "ji",
+        "id": "HD12"
+    },
+    {
+        "hira": "づ",
+        "alpha": "zu",
+        "id": "HD13"
+    },
+    {
+        "hira": "で",
+        "alpha": "de",
+        "id": "HD14"
+    },
+    {
+        "hira": "ど",
+        "alpha": "do",
+        "id": "HD15"
+    },
+    {
+        "hira": "ば",
+        "alpha": "ba",
+        "id": "HD16"
+    },
+    {
+        "hira": "び",
+        "alpha": "bi",
+        "id": "HD17"
+    },
+    {
+        "hira": "ぶ",
+        "alpha": "bu",
+        "id": "HD18"
+    },
+    {
+        "hira": "べ",
+        "alpha": "be",
+        "id": "HD19"
+    },
+    {
+        "hira": "ぼ",
+        "alpha": "bo",
+        "id": "HD20"
+    },
+    {
+        "hira": "ぱ",
+        "alpha": "pa",
+        "id": "HD21"
+    },
+    {
+        "hira": "ぴ",
+        "alpha": "pi",
+        "id": "HD22"
+    },
+    {
+        "hira": "ぷ",
+        "alpha": "pu",
+        "id": "HD23"
+    },
+    {
+        "hira": "ぺ",
+        "alpha": "pe",
+        "id": "HD24"
+    },
+    {
+        "hira": "ぽ",
+        "alpha": "po",
+        "id": "HD25"
+    }
+]
