@@ -78,6 +78,16 @@ export const View: FC<IProps> = ({
                     <p
                       className=" cursor-pointer"
                       onClick={() => {
+                        setModal(true)
+                      }}
+                    >
+                      {"Check All Cards"}
+                    </p>
+                  </div>
+                  <div className="flex">
+                    <p
+                      className=" cursor-pointer"
+                      onClick={() => {
                         setModalAch(true)
                       }}
                     >
