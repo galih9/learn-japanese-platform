@@ -1,4 +1,4 @@
-import { FC, useState } from "react"
+import { FC, useEffect, useState } from "react"
 import { View } from "./view"
 import { useDispatch, useSelector } from "react-redux"
 import {
@@ -13,15 +13,8 @@ import {
 } from "./slice"
 import { RootState } from "../../app/store"
 
-import katakana from "../../assets/db/katakana.json"
-import katakanaDakuten from "../../assets/db/katakana_dakuten.json"
-import katakanaYoon from "../../assets/db/katakana_yoon.json"
-
-import hiragana from "../../assets/db/hiragana.json"
-import hiraganaDakuten from "../../assets/db/hiragana_dakuten.json"
-import hiraganaYoon from "../../assets/db/hiragana_yoon.json"
-import hiragana2 from "../../assets/db/hiragana_two_simple.json"
-import hiragana3 from "../../assets/db/hiragana_three_simple.json"
+import kn5 from "../../assets/db/kanji_n5.json"
+import { IKanji } from "../../pages/types"
 
 interface IProps {}
 
@@ -33,44 +26,9 @@ export interface IUpg {
 
 const COMMON_UPGRADES: IUpg[] = [
   {
-    name: "Hiragana Mokkan",
-    description: "Add extra 5 hiragana card",
-    id: "HIRA_EXTRA1",
-  },
-  {
-    name: "Hiragana Washi",
-    description: "Add extra 10 hiragana card",
-    id: "HIRA_EXTRA2",
-  },
-  {
-    name: "Hiragana Kansubon",
-    description: "Add extra 10 hiragana dakuten card",
-    id: "HIRA_DAKUTEN",
-  },
-  {
-    name: "Hiragana Orihon",
-    description: "Add extra 10 hiragana yoon card",
-    id: "HIRA_YOON",
-  },
-  {
-    name: "Katakana Scroll",
-    description: "Add extra 5 katakana card",
-    id: "KATA_EXTRA",
-  },
-  {
-    name: "Katakana Scroll v2",
-    description: "Add extra 10 katakana card",
-    id: "KATA_EXTRA2",
-  },
-  {
-    name: "Katakana Scroll v3",
-    description: "Add extra 10 katakana dakuten card",
-    id: "KATA_DAKUTEN",
-  },
-  {
-    name: "Katakana Scroll v3",
-    description: "Add extra 10 katakana yoon card",
-    id: "KATA_YOON",
+    name: "Kanji Mokkan",
+    description: "Add extra 5 kanji card",
+    id: "KANJI_EXTRA1",
   },
   {
     name: "Hisho",
@@ -81,14 +39,9 @@ const COMMON_UPGRADES: IUpg[] = [
 
 const UNCOMMON_UPGRADES: IUpg[] = [
   {
-    name: "Hiragana Advanced Inscription v2",
-    description: "Add extra 10 hiragana words card level 2",
-    id: "HIRA_WORD2_EXTRA",
-  },
-  {
-    name: "Hiragana Advanced Inscription v3",
-    description: "Add extra 10 hiragana words card level 3",
-    id: "HIRA_WORD3_EXTRA",
+    name: "Kanji Washi",
+    description: "Add extra 10 kanji card",
+    id: "KANJI_EXTRA2",
   },
   {
     name: "Dai Hisho",
@@ -97,6 +50,11 @@ const UNCOMMON_UPGRADES: IUpg[] = [
   },
 ]
 const RARE_UPGRADES: IUpg[] = [
+  {
+    name: "Kanji Kansubon",
+    description: "Add extra 15 kanji card",
+    id: "KANJI_EXTRA3",
+  },
   {
     name: "Chiroshi",
     description: "Reset all cards conditions",
@@ -116,14 +74,9 @@ const RARE_UPGRADES: IUpg[] = [
 
 const EPIC_UPGRADES: IUpg[] = [
   {
-    name: "Shuurishi",
-    description: "Remove all katakana card",
-    id: "KATA_REMOVE",
-  },
-  {
-    name: "Haikankoo",
-    description: "Remove all hiragana card",
-    id: "KATA_REMOVE",
+    name: "Kanji Orihon",
+    description: "Add extra 25 kanji card",
+    id: "KANJI_EXTRA4",
   },
 ]
 
@@ -164,15 +117,17 @@ const LearnKana: FC<IProps> = () => {
 
   const [listUpgrade, setListUpgrade] = useState<IUpg[]>([])
 
-  const dispatch = useDispatch()
-  const onPlay = () => {
+  useEffect(() => {
     let res: ILearnKana[] = []
     for (let i = 0; i < 10; i++) {
       const nums = i
       res.push({
-        hira: hiragana[nums].hira,
-        alpha: hiragana[nums].alpha,
-        id: hiragana[nums].id,
+        kanji: kn5[nums].kanji,
+        onyomi: kn5[nums].onyomi,
+        kunyomi: kn5[nums].kunyomi,
+        alpha: kn5[nums].alpha,
+        meaning: kn5[nums].meaning,
+        id: kn5[nums].id,
         score: 5,
         wrongCount: 0,
         correctCount: 0,
@@ -180,6 +135,10 @@ const LearnKana: FC<IProps> = () => {
     }
     dispatch(populateData(res))
     dispatch(setListToPlayedCustom(10))
+  }, [])
+
+  const dispatch = useDispatch()
+  const onPlay = () => {
     setScene("PLAY")
   }
 
@@ -190,51 +149,15 @@ const LearnKana: FC<IProps> = () => {
       return
     }
 
-    if (e.id.includes("HIRA")) {
+    if (e.id.includes("KANJI")) {
       let res: ILearnKana[] = [...data]
-      let scoring = e.id.includes("DAKUTEN")
-        ? 10
-        : e.id.includes("YOON")
-          ? 10
-          : e.id.includes("WORD")
-            ? e.id.includes("2")
-              ? 20
-              : 30
-            : 5
-      let type = e.id.includes("DAKUTEN")
-        ? "HD"
-        : e.id.includes("YOON")
-          ? "HY"
-          : e.id.includes("WORD")
-            ? e.id.includes("2")
-              ? "HVT"
-              : "HWD"
-            : "HI"
+      let scoring = 5
       // Get all hiragana IDs currently in data
-      const onlyHira = data.filter(item => item.id.includes(type))
+      const onlyHira = data.filter(item => item.id.includes("KN5"))
       const currentIds = new Set(onlyHira.map(item => item.id))
 
       // Filter hiragana to get only those not in current data
-      let unclaimedHira: any[] = []
-      switch (type) {
-        case "HD":
-          unclaimedHira = hiraganaDakuten.filter(
-            item => !currentIds.has(item.id),
-          )
-          break
-        case "HY":
-          unclaimedHira = hiraganaYoon.filter(item => !currentIds.has(item.id))
-          break
-        case "HVT":
-          unclaimedHira = hiragana2.filter(item => !currentIds.has(item.id))
-          break
-        case "HWD":
-          unclaimedHira = hiragana3.filter(item => !currentIds.has(item.id))
-          break
-        default:
-          unclaimedHira = hiragana.filter(item => !currentIds.has(item.id))
-          break
-      }
+      let unclaimedHira: any[] = kn5.filter(item => !currentIds.has(item.id))
 
       // Shuffle the unclaimedHira array
       for (let i = unclaimedHira.length - 1; i > 0; i--) {
@@ -248,70 +171,14 @@ const LearnKana: FC<IProps> = () => {
       let addSize = e.id.includes("EXTRA") && !e.id.includes("2") ? 5 : 10
 
       for (let i = 0; i < addSize && i < unclaimedHira.length; i++) {
-        const item = unclaimedHira[i]
+        const item: IKanji = unclaimedHira[i]
         res.push({
-          hira: item.hira,
+          kanji: item.kanji,
+          onyomi: item.onyomi,
+          kunyomi: item.kunyomi,
           alpha: item.alpha,
           id: item.id,
           meaning: item.meaning,
-          score: scoring,
-          wrongCount: 0,
-          correctCount: 0,
-        })
-      }
-
-      dispatch(populateData(res))
-    }
-    if (e.id.includes("KATA")) {
-      let res: ILearnKana[] = [...data]
-
-      let addSize = e.id.includes("EXTRA") && !e.id.includes("2") ? 5 : 10
-      let scoring = e.id.includes("DAKUTEN")
-        ? 10
-        : e.id.includes("YOON")
-          ? 10
-          : 5
-      let type = e.id.includes("DAKUTEN")
-        ? "KD"
-        : e.id.includes("YOON")
-          ? "KY"
-          : "KA"
-
-      // Get all katakana IDs currently in data
-      const onlyKata = data.filter(item => item.id.includes(type))
-      const currentIds = new Set(onlyKata.map(item => item.id))
-
-      // Filter katakana to get only those not in current data
-      let unclaimedKata: any[] = []
-      switch (type) {
-        case "KD":
-          unclaimedKata = katakanaDakuten.filter(
-            item => !currentIds.has(item.id),
-          )
-          break
-        case "KY":
-          unclaimedKata = katakanaYoon.filter(item => !currentIds.has(item.id))
-          break
-        default:
-          unclaimedKata = katakana.filter(item => !currentIds.has(item.id))
-          break
-      }
-
-      // Shuffle the unclaimedKata array
-      for (let i = unclaimedKata.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1))
-        ;[unclaimedKata[i], unclaimedKata[j]] = [
-          unclaimedKata[j],
-          unclaimedKata[i],
-        ]
-      }
-
-      for (let i = 0; i < addSize && i < unclaimedKata.length; i++) {
-        const item = unclaimedKata[i]
-        res.push({
-          hira: item.hira,
-          alpha: item.alpha,
-          id: item.id,
           score: scoring,
           wrongCount: 0,
           correctCount: 0,
@@ -348,10 +215,8 @@ const LearnKana: FC<IProps> = () => {
     setScene("PLAY")
   }
 
-  const checkIsHiraganaComplete = () => {
-    const allHiragana = [...hiragana, ...hiraganaDakuten, ...hiraganaYoon].map(
-      item => item.id,
-    )
+  const checkIsKanjiComplete = () => {
+    const allHiragana = [...kn5].map(item => item.id)
 
     const dataIds = data.map(item => item.id)
     const isComplete = allHiragana.every(id => dataIds.includes(id))
@@ -367,7 +232,7 @@ const LearnKana: FC<IProps> = () => {
   }
 
   const onResetGame = () => {
-    checkIsHiraganaComplete()
+    checkIsKanjiComplete()
     setScene("RESULT")
     setListUpgrade(generateUpgrades())
   }

@@ -8,6 +8,19 @@ export type IHiragana = {
   meaning?: string[]
 }
 
+export type IKanji = {
+  kanji: string;
+  onyomi: string[]
+  kunyomi: string[]
+  alpha: string[]
+  id: string
+  score: number
+  modifier?: string
+  played?: boolean
+  meaning: string[]
+}
+
+
 export type IPower = {
   name: string;
   description: string;

@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit"
-import { IHiragana } from "../../pages/types"
+import { IKanji } from "../../pages/types"
 interface IInitialProps {
   data: ILearnKana[]
   result: IResultKana | null
@@ -24,7 +24,7 @@ export interface IResultKana {
   timeSpent: string
 }
 
-export interface ILearnKana extends IHiragana {
+export interface ILearnKana extends IKanji {
   wrongCount: number
   correctCount: number
 }

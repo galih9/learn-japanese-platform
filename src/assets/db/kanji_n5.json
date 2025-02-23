@@ -1,0 +1,1891 @@
+[
+    {
+        "kanji": "一",
+        "onyomi": [
+            "いち"
+        ],
+        "kunyomi": [
+            "ひと(つ)"
+        ],
+        "alpha": [
+            "ichi"
+        ],
+        "meaning": [
+            "one"
+        ],
+        "id": "KN5_001"
+    },
+    {
+        "kanji": "二",
+        "onyomi": [
+            "に"
+        ],
+        "kunyomi": [
+            "ふた(つ)"
+        ],
+        "alpha": [
+            "ni"
+        ],
+        "meaning": [
+            "two"
+        ],
+        "id": "KN5_002"
+    },
+    {
+        "kanji": "三",
+        "onyomi": [
+            "さん"
+        ],
+        "kunyomi": [
+            "みっ(つ)"
+        ],
+        "alpha": [
+            "san"
+        ],
+        "meaning": [
+            "three"
+        ],
+        "id": "KN5_003"
+    },
+    {
+        "kanji": "四",
+        "onyomi": [
+            "し"
+        ],
+        "kunyomi": [
+            "よん",
+            "よっ(つ)"
+        ],
+        "alpha": [
+            "shi"
+        ],
+        "meaning": [
+            "four"
+        ],
+        "id": "KN5_004"
+    },
+    {
+        "kanji": "五",
+        "onyomi": [
+            "ご"
+        ],
+        "kunyomi": [
+            "いつ(つ)"
+        ],
+        "alpha": [
+            "go"
+        ],
+        "meaning": [
+            "five"
+        ],
+        "id": "KN5_005"
+    },
+    {
+        "kanji": "六",
+        "onyomi": [
+            "ろく"
+        ],
+        "kunyomi": [
+            "むっ(つ)"
+        ],
+        "alpha": [
+            "roku"
+        ],
+        "meaning": [
+            "six"
+        ],
+        "id": "KN5_006"
+    },
+    {
+        "kanji": "七",
+        "onyomi": [
+            "しち"
+        ],
+        "kunyomi": [
+            "なな(つ)"
+        ],
+        "alpha": [
+            "shichi"
+        ],
+        "meaning": [
+            "seven"
+        ],
+        "id": "KN5_007"
+    },
+    {
+        "kanji": "八",
+        "onyomi": [
+            "はち"
+        ],
+        "kunyomi": [
+            "やっ(つ)"
+        ],
+        "alpha": [
+            "hachi"
+        ],
+        "meaning": [
+            "eight"
+        ],
+        "id": "KN5_008"
+    },
+    {
+        "kanji": "九",
+        "onyomi": [
+            "きゅう",
+            "く"
+        ],
+        "kunyomi": [
+            "ここの(つ)"
+        ],
+        "alpha": [
+            "kyuu",
+            "ku"
+        ],
+        "meaning": [
+            "nine"
+        ],
+        "id": "KN5_009"
+    },
+    {
+        "kanji": "十",
+        "onyomi": [
+            "じゅう"
+        ],
+        "kunyomi": [
+            "とお"
+        ],
+        "alpha": [
+            "juu"
+        ],
+        "meaning": [
+            "ten"
+        ],
+        "id": "KN5_010"
+    },
+    {
+        "kanji": "百",
+        "onyomi": [
+            "ひゃく"
+        ],
+        "kunyomi": [
+            "もも"
+        ],
+        "alpha": [
+            "hyaku"
+        ],
+        "meaning": [
+            "hundred"
+        ],
+        "id": "KN5_011"
+    },
+    {
+        "kanji": "千",
+        "onyomi": [
+            "せん"
+        ],
+        "kunyomi": [
+            "ち"
+        ],
+        "alpha": [
+            "sen"
+        ],
+        "meaning": [
+            "thousand"
+        ],
+        "id": "KN5_012"
+    },
+    {
+        "kanji": "万",
+        "onyomi": [
+            "まん",
+            "ばん"
+        ],
+        "kunyomi": [
+            "よろず"
+        ],
+        "alpha": [
+            "man",
+            "ban"
+        ],
+        "meaning": [
+            "ten thousand"
+        ],
+        "id": "KN5_013"
+    },
+    {
+        "kanji": "円",
+        "onyomi": [
+            "えん"
+        ],
+        "kunyomi": [
+            "まる(い)"
+        ],
+        "alpha": [
+            "en"
+        ],
+        "meaning": [
+            "yen",
+            "circle"
+        ],
+        "id": "KN5_014"
+    },
+    {
+        "kanji": "口",
+        "onyomi": [
+            "こう",
+            "く"
+        ],
+        "kunyomi": [
+            "くち"
+        ],
+        "alpha": [
+            "kou",
+            "ku"
+        ],
+        "meaning": [
+            "mouth"
+        ],
+        "id": "KN5_015"
+    },
+    {
+        "kanji": "目",
+        "onyomi": [
+            "もく",
+            "ぼく"
+        ],
+        "kunyomi": [
+            "め"
+        ],
+        "alpha": [
+            "moku",
+            "boku"
+        ],
+        "meaning": [
+            "eye"
+        ],
+        "id": "KN5_016"
+    },
+    {
+        "kanji": "耳",
+        "onyomi": [
+            "じ"
+        ],
+        "kunyomi": [
+            "みみ"
+        ],
+        "alpha": [
+            "ji"
+        ],
+        "meaning": [
+            "ear"
+        ],
+        "id": "KN5_017"
+    },
+    {
+        "kanji": "手",
+        "onyomi": [
+            "しゅ"
+        ],
+        "kunyomi": [
+            "て"
+        ],
+        "alpha": [
+            "shu"
+        ],
+        "meaning": [
+            "hand"
+        ],
+        "id": "KN5_018"
+    },
+    {
+        "kanji": "足",
+        "onyomi": [
+            "そく"
+        ],
+        "kunyomi": [
+            "あし",
+            "た(りる)"
+        ],
+        "alpha": [
+            "soku"
+        ],
+        "meaning": [
+            "foot",
+            "leg"
+        ],
+        "id": "KN5_019"
+    },
+    {
+        "kanji": "力",
+        "onyomi": [
+            "りょく",
+            "りき"
+        ],
+        "kunyomi": [
+            "ちから"
+        ],
+        "alpha": [
+            "ryoku",
+            "riki"
+        ],
+        "meaning": [
+            "power",
+            "strength"
+        ],
+        "id": "KN5_020"
+    },
+    {
+        "kanji": "男",
+        "onyomi": [
+            "だん",
+            "なん"
+        ],
+        "kunyomi": [
+            "おとこ"
+        ],
+        "alpha": [
+            "dan",
+            "nan"
+        ],
+        "meaning": [
+            "man",
+            "male"
+        ],
+        "id": "KN5_021"
+    },
+    {
+        "kanji": "女",
+        "onyomi": [
+            "じょ",
+            "にょ",
+            "にょう"
+        ],
+        "kunyomi": [
+            "おんな",
+            "め"
+        ],
+        "alpha": [
+            "jo",
+            "nyo",
+            "nyou"
+        ],
+        "meaning": [
+            "woman",
+            "female"
+        ],
+        "id": "KN5_022"
+    },
+    {
+        "kanji": "子",
+        "onyomi": [
+            "し",
+            "す"
+        ],
+        "kunyomi": [
+            "こ"
+        ],
+        "alpha": [
+            "shi",
+            "su"
+        ],
+        "meaning": [
+            "child"
+        ],
+        "id": "KN5_023"
+    },
+    {
+        "kanji": "日",
+        "onyomi": [
+            "にち",
+            "じつ"
+        ],
+        "kunyomi": [
+            "ひ",
+            "か"
+        ],
+        "alpha": [
+            "nichi",
+            "jitsu"
+        ],
+        "meaning": [
+            "day",
+            "sun"
+        ],
+        "id": "KN5_024"
+    },
+    {
+        "kanji": "月",
+        "onyomi": [
+            "げつ",
+            "がつ"
+        ],
+        "kunyomi": [
+            "つき"
+        ],
+        "alpha": [
+            "getsu",
+            "gatsu"
+        ],
+        "meaning": [
+            "month",
+            "moon"
+        ],
+        "id": "KN5_025"
+    },
+    {
+        "kanji": "水",
+        "onyomi": [
+            "すい"
+        ],
+        "kunyomi": [
+            "みず"
+        ],
+        "alpha": [
+            "sui"
+        ],
+        "meaning": [
+            "water"
+        ],
+        "id": "KN5_026"
+    },
+    {
+        "kanji": "木",
+        "onyomi": [
+            "もく",
+            "ぼく"
+        ],
+        "kunyomi": [
+            "き"
+        ],
+        "alpha": [
+            "moku",
+            "boku"
+        ],
+        "meaning": [
+            "tree",
+            "wood"
+        ],
+        "id": "KN5_027"
+    },
+    {
+        "kanji": "金",
+        "onyomi": [
+            "きん",
+            "こん"
+        ],
+        "kunyomi": [
+            "かね"
+        ],
+        "alpha": [
+            "kin",
+            "kon"
+        ],
+        "meaning": [
+            "gold",
+            "money"
+        ],
+        "id": "KN5_028"
+    },
+    {
+        "kanji": "土",
+        "onyomi": [
+            "ど",
+            "と"
+        ],
+        "kunyomi": [
+            "つち"
+        ],
+        "alpha": [
+            "do",
+            "to"
+        ],
+        "meaning": [
+            "earth",
+            "soil"
+        ],
+        "id": "KN5_029"
+    },
+    {
+        "kanji": "山",
+        "onyomi": [
+            "さん"
+        ],
+        "kunyomi": [
+            "やま"
+        ],
+        "alpha": [
+            "san"
+        ],
+        "meaning": [
+            "mountain"
+        ],
+        "id": "KN5_030"
+    },
+    {
+        "kanji": "川",
+        "onyomi": [
+            "せん"
+        ],
+        "kunyomi": [
+            "かわ"
+        ],
+        "alpha": [
+            "sen"
+        ],
+        "meaning": [
+            "river"
+        ],
+        "id": "KN5_031"
+    },
+    {
+        "kanji": "田",
+        "onyomi": [
+            "でん"
+        ],
+        "kunyomi": [
+            "た"
+        ],
+        "alpha": [
+            "den"
+        ],
+        "meaning": [
+            "rice field"
+        ],
+        "id": "KN5_032"
+    },
+    {
+        "kanji": "天",
+        "onyomi": [
+            "てん"
+        ],
+        "kunyomi": [
+            "あま"
+        ],
+        "alpha": [
+            "ten"
+        ],
+        "meaning": [
+            "heaven",
+            "sky"
+        ],
+        "id": "KN5_033"
+    },
+    {
+        "kanji": "気",
+        "onyomi": [
+            "き",
+            "け"
+        ],
+        "kunyomi": [],
+        "alpha": [
+            "ki",
+            "ke"
+        ],
+        "meaning": [
+            "spirit",
+            "energy"
+        ],
+        "id": "KN5_034"
+    },
+    {
+        "kanji": "空",
+        "onyomi": [
+            "くう"
+        ],
+        "kunyomi": [
+            "そら",
+            "から"
+        ],
+        "alpha": [
+            "kuu"
+        ],
+        "meaning": [
+            "sky",
+            "empty"
+        ],
+        "id": "KN5_035"
+    },
+    {
+        "kanji": "生",
+        "onyomi": [
+            "せい",
+            "しょう"
+        ],
+        "kunyomi": [
+            "い(きる)",
+            "う(まれる)"
+        ],
+        "alpha": [
+            "sei",
+            "shou"
+        ],
+        "meaning": [
+            "life",
+            "birth"
+        ],
+        "id": "KN5_036"
+    },
+    {
+        "kanji": "学",
+        "onyomi": [
+            "がく"
+        ],
+        "kunyomi": [
+            "まな(ぶ)"
+        ],
+        "alpha": [
+            "gaku"
+        ],
+        "meaning": [
+            "study",
+            "learning"
+        ],
+        "id": "KN5_037"
+    },
+    {
+        "kanji": "校",
+        "onyomi": [
+            "こう"
+        ],
+        "kunyomi": [],
+        "alpha": [
+            "kou"
+        ],
+        "meaning": [
+            "school"
+        ],
+        "id": "KN5_038"
+    },
+    {
+        "kanji": "先",
+        "onyomi": [
+            "せん"
+        ],
+        "kunyomi": [
+            "さき"
+        ],
+        "alpha": [
+            "sen"
+        ],
+        "meaning": [
+            "before",
+            "ahead"
+        ],
+        "id": "KN5_039"
+    },
+    {
+        "kanji": "名",
+        "onyomi": [
+            "めい",
+            "みょう"
+        ],
+        "kunyomi": [
+            "な"
+        ],
+        "alpha": [
+            "mei",
+            "myou"
+        ],
+        "meaning": [
+            "name"
+        ],
+        "id": "KN5_040"
+    },
+    {
+        "kanji": "年",
+        "onyomi": [
+            "ねん"
+        ],
+        "kunyomi": [
+            "とし"
+        ],
+        "alpha": [
+            "nen"
+        ],
+        "meaning": [
+            "year"
+        ],
+        "id": "KN5_041"
+    },
+    {
+        "kanji": "時",
+        "onyomi": [
+            "じ"
+        ],
+        "kunyomi": [
+            "とき"
+        ],
+        "alpha": [
+            "ji"
+        ],
+        "meaning": [
+            "time",
+            "hour"
+        ],
+        "id": "KN5_042"
+    },
+    {
+        "kanji": "今",
+        "onyomi": [
+            "こん"
+        ],
+        "kunyomi": [
+            "いま"
+        ],
+        "alpha": [
+            "kon"
+        ],
+        "meaning": [
+            "now"
+        ],
+        "id": "KN5_043"
+    },
+    {
+        "kanji": "午",
+        "onyomi": [
+            "ご"
+        ],
+        "kunyomi": [],
+        "alpha": [
+            "go"
+        ],
+        "meaning": [
+            "noon"
+        ],
+        "id": "KN5_044"
+    },
+    {
+        "kanji": "後",
+        "onyomi": [
+            "ご",
+            "こう"
+        ],
+        "kunyomi": [
+            "あと",
+            "うし(ろ)"
+        ],
+        "alpha": [
+            "go",
+            "kou"
+        ],
+        "meaning": [
+            "after",
+            "behind"
+        ],
+        "id": "KN5_045"
+    },
+    {
+        "kanji": "前",
+        "onyomi": [
+            "ぜん"
+        ],
+        "kunyomi": [
+            "まえ"
+        ],
+        "alpha": [
+            "zen"
+        ],
+        "meaning": [
+            "before",
+            "front"
+        ],
+        "id": "KN5_046"
+    },
+    {
+        "kanji": "東",
+        "onyomi": [
+            "とう"
+        ],
+        "kunyomi": [
+            "ひがし"
+        ],
+        "alpha": [
+            "tou"
+        ],
+        "meaning": [
+            "east"
+        ],
+        "id": "KN5_047"
+    },
+    {
+        "kanji": "西",
+        "onyomi": [
+            "せい",
+            "さい"
+        ],
+        "kunyomi": [
+            "にし"
+        ],
+        "alpha": [
+            "sei",
+            "sai"
+        ],
+        "meaning": [
+            "west"
+        ],
+        "id": "KN5_048"
+    },
+    {
+        "kanji": "南",
+        "onyomi": [
+            "なん"
+        ],
+        "kunyomi": [
+            "みなみ"
+        ],
+        "alpha": [
+            "nan"
+        ],
+        "meaning": [
+            "south"
+        ],
+        "id": "KN5_049"
+    },
+    {
+        "kanji": "北",
+        "onyomi": [
+            "ほく"
+        ],
+        "kunyomi": [
+            "きた"
+        ],
+        "alpha": [
+            "hoku"
+        ],
+        "meaning": [
+            "north"
+        ],
+        "id": "KN5_050"
+    },
+    {
+        "kanji": "白",
+        "onyomi": [
+            "はく"
+        ],
+        "kunyomi": [
+            "しろ"
+        ],
+        "alpha": [
+            "haku"
+        ],
+        "meaning": [
+            "white"
+        ],
+        "id": "KN5_051"
+    },
+    {
+        "kanji": "赤",
+        "onyomi": [
+            "せき"
+        ],
+        "kunyomi": [
+            "あか"
+        ],
+        "alpha": [
+            "seki"
+        ],
+        "meaning": [
+            "red"
+        ],
+        "id": "KN5_052"
+    },
+    {
+        "kanji": "青",
+        "onyomi": [
+            "せい"
+        ],
+        "kunyomi": [
+            "あお"
+        ],
+        "alpha": [
+            "sei"
+        ],
+        "meaning": [
+            "blue"
+        ],
+        "id": "KN5_053"
+    },
+    {
+        "kanji": "黒",
+        "onyomi": [
+            "こく"
+        ],
+        "kunyomi": [
+            "くろ"
+        ],
+        "alpha": [
+            "koku"
+        ],
+        "meaning": [
+            "black"
+        ],
+        "id": "KN5_054"
+    },
+    {
+        "kanji": "大",
+        "onyomi": [
+            "だい",
+            "たい"
+        ],
+        "kunyomi": [
+            "おお(きい)"
+        ],
+        "alpha": [
+            "dai",
+            "tai"
+        ],
+        "meaning": [
+            "big",
+            "large"
+        ],
+        "id": "KN5_055"
+    },
+    {
+        "kanji": "小",
+        "onyomi": [
+            "しょう"
+        ],
+        "kunyomi": [
+            "ちい(さい)"
+        ],
+        "alpha": [
+            "shou"
+        ],
+        "meaning": [
+            "small"
+        ],
+        "id": "KN5_056"
+    },
+    {
+        "kanji": "高",
+        "onyomi": [
+            "こう"
+        ],
+        "kunyomi": [
+            "たか(い)"
+        ],
+        "alpha": [
+            "kou"
+        ],
+        "meaning": [
+            "high",
+            "tall"
+        ],
+        "id": "KN5_057"
+    },
+    {
+        "kanji": "安",
+        "onyomi": [
+            "あん"
+        ],
+        "kunyomi": [
+            "やす(い)"
+        ],
+        "alpha": [
+            "an"
+        ],
+        "meaning": [
+            "cheap",
+            "safe"
+        ],
+        "id": "KN5_058"
+    },
+    {
+        "kanji": "新",
+        "onyomi": [
+            "しん"
+        ],
+        "kunyomi": [
+            "あたら(しい)"
+        ],
+        "alpha": [
+            "shin"
+        ],
+        "meaning": [
+            "new"
+        ],
+        "id": "KN5_059"
+    },
+    {
+        "kanji": "古",
+        "onyomi": [
+            "こ"
+        ],
+        "kunyomi": [
+            "ふる(い)"
+        ],
+        "alpha": [
+            "ko"
+        ],
+        "meaning": [
+            "old"
+        ],
+        "id": "KN5_060"
+    },
+    {
+        "kanji": "早",
+        "onyomi": [
+            "そう"
+        ],
+        "kunyomi": [
+            "はや(い)"
+        ],
+        "alpha": [
+            "sou"
+        ],
+        "meaning": [
+            "early",
+            "fast"
+        ],
+        "id": "KN5_061"
+    },
+    {
+        "kanji": "長",
+        "onyomi": [
+            "ちょう"
+        ],
+        "kunyomi": [
+            "なが(い)"
+        ],
+        "alpha": [
+            "chou"
+        ],
+        "meaning": [
+            "long"
+        ],
+        "id": "KN5_062"
+    },
+    {
+        "kanji": "明",
+        "onyomi": [
+            "めい"
+        ],
+        "kunyomi": [
+            "あか(るい)"
+        ],
+        "alpha": [
+            "mei"
+        ],
+        "meaning": [
+            "bright"
+        ],
+        "id": "KN5_063"
+    },
+    {
+        "kanji": "楽",
+        "onyomi": [
+            "がく",
+            "らく"
+        ],
+        "kunyomi": [
+            "たの(しい)"
+        ],
+        "alpha": [
+            "gaku",
+            "raku"
+        ],
+        "meaning": [
+            "fun",
+            "comfortable"
+        ],
+        "id": "KN5_064"
+    },
+    {
+        "kanji": "行",
+        "onyomi": [
+            "こう"
+        ],
+        "kunyomi": [
+            "い(く)",
+            "おこな(う)"
+        ],
+        "alpha": [
+            "kou"
+        ],
+        "meaning": [
+            "go",
+            "conduct"
+        ],
+        "id": "KN5_065"
+    },
+    {
+        "kanji": "来",
+        "onyomi": [
+            "らい"
+        ],
+        "kunyomi": [
+            "く(る)"
+        ],
+        "alpha": [
+            "rai"
+        ],
+        "meaning": [
+            "come"
+        ],
+        "id": "KN5_066"
+    },
+    {
+        "kanji": "帰",
+        "onyomi": [
+            "き"
+        ],
+        "kunyomi": [
+            "かえ(る)"
+        ],
+        "alpha": [
+            "ki"
+        ],
+        "meaning": [
+            "return"
+        ],
+        "id": "KN5_067"
+    },
+    {
+        "kanji": "食",
+        "onyomi": [
+            "しょく"
+        ],
+        "kunyomi": [
+            "た(べる)"
+        ],
+        "alpha": [
+            "shoku"
+        ],
+        "meaning": [
+            "eat"
+        ],
+        "id": "KN5_068"
+    },
+    {
+        "kanji": "飲",
+        "onyomi": [
+            "いん"
+        ],
+        "kunyomi": [
+            "の(む)"
+        ],
+        "alpha": [
+            "in"
+        ],
+        "meaning": [
+            "drink"
+        ],
+        "id": "KN5_069"
+    },
+    {
+        "kanji": "見",
+        "onyomi": [
+            "けん"
+        ],
+        "kunyomi": [
+            "み(る)"
+        ],
+        "alpha": [
+            "ken"
+        ],
+        "meaning": [
+            "see"
+        ],
+        "id": "KN5_070"
+    },
+    {
+        "kanji": "聞",
+        "onyomi": [
+            "ぶん"
+        ],
+        "kunyomi": [
+            "き(く)"
+        ],
+        "alpha": [
+            "bun"
+        ],
+        "meaning": [
+            "hear",
+            "listen"
+        ],
+        "id": "KN5_071"
+    },
+    {
+        "kanji": "書",
+        "onyomi": [
+            "しょ"
+        ],
+        "kunyomi": [
+            "か(く)"
+        ],
+        "alpha": [
+            "sho"
+        ],
+        "meaning": [
+            "write"
+        ],
+        "id": "KN5_072"
+    },
+    {
+        "kanji": "読",
+        "onyomi": [
+            "どく"
+        ],
+        "kunyomi": [
+            "よ(む)"
+        ],
+        "alpha": [
+            "doku"
+        ],
+        "meaning": [
+            "read"
+        ],
+        "id": "KN5_073"
+    },
+    {
+        "kanji": "話",
+        "onyomi": [
+            "わ"
+        ],
+        "kunyomi": [
+            "はな(す)"
+        ],
+        "alpha": [
+            "wa"
+        ],
+        "meaning": [
+            "talk",
+            "speak"
+        ],
+        "id": "KN5_074"
+    },
+    {
+        "kanji": "買",
+        "onyomi": [
+            "ばい"
+        ],
+        "kunyomi": [
+            "か(う)"
+        ],
+        "alpha": [
+            "bai"
+        ],
+        "meaning": [
+            "buy"
+        ],
+        "id": "KN5_075"
+    },
+    {
+        "kanji": "売",
+        "onyomi": [
+            "ばい"
+        ],
+        "kunyomi": [
+            "う(る)"
+        ],
+        "alpha": [
+            "bai"
+        ],
+        "meaning": [
+            "sell"
+        ],
+        "id": "KN5_076"
+    },
+    {
+        "kanji": "教",
+        "onyomi": [
+            "きょう"
+        ],
+        "kunyomi": [
+            "おし(える)"
+        ],
+        "alpha": [
+            "kyou"
+        ],
+        "meaning": [
+            "teach"
+        ],
+        "id": "KN5_077"
+    },
+    {
+        "kanji": "習",
+        "onyomi": [
+            "しゅう"
+        ],
+        "kunyomi": [
+            "なら(う)"
+        ],
+        "alpha": [
+            "shuu"
+        ],
+        "meaning": [
+            "learn"
+        ],
+        "id": "KN5_078"
+    },
+    {
+        "kanji": "待",
+        "onyomi": [
+            "たい"
+        ],
+        "kunyomi": [
+            "ま(つ)"
+        ],
+        "alpha": [
+            "tai"
+        ],
+        "meaning": [
+            "wait"
+        ],
+        "id": "KN5_079"
+    },
+    {
+        "kanji": "持",
+        "onyomi": [
+            "じ"
+        ],
+        "kunyomi": [
+            "も(つ)"
+        ],
+        "alpha": [
+            "ji"
+        ],
+        "meaning": [
+            "hold",
+            "carry"
+        ],
+        "id": "KN5_080"
+    },
+    {
+        "kanji": "住",
+        "onyomi": [
+            "じゅう"
+        ],
+        "kunyomi": [
+            "す(む)"
+        ],
+        "alpha": [
+            "juu"
+        ],
+        "meaning": [
+            "live",
+            "reside"
+        ],
+        "id": "KN5_081"
+    },
+    {
+        "kanji": "働",
+        "onyomi": [
+            "どう"
+        ],
+        "kunyomi": [
+            "はたら(く)"
+        ],
+        "alpha": [
+            "dou"
+        ],
+        "meaning": [
+            "work"
+        ],
+        "id": "KN5_082"
+    },
+    {
+        "kanji": "走",
+        "onyomi": [
+            "そう"
+        ],
+        "kunyomi": [
+            "はし(る)"
+        ],
+        "alpha": [
+            "sou"
+        ],
+        "meaning": [
+            "run"
+        ],
+        "id": "KN5_083"
+    },
+    {
+        "kanji": "歩",
+        "onyomi": [
+            "ほ"
+        ],
+        "kunyomi": [
+            "ある(く)"
+        ],
+        "alpha": [
+            "ho"
+        ],
+        "meaning": [
+            "walk"
+        ],
+        "id": "KN5_084"
+    },
+    {
+        "kanji": "止",
+        "onyomi": [
+            "し"
+        ],
+        "kunyomi": [
+            "と(まる)"
+        ],
+        "alpha": [
+            "shi"
+        ],
+        "meaning": [
+            "stop"
+        ],
+        "id": "KN5_085"
+    },
+    {
+        "kanji": "開",
+        "onyomi": [
+            "かい"
+        ],
+        "kunyomi": [
+            "あ(ける)",
+            "ひら(く)"
+        ],
+        "alpha": [
+            "kai"
+        ],
+        "meaning": [
+            "open"
+        ],
+        "id": "KN5_086"
+    },
+    {
+        "kanji": "閉",
+        "onyomi": [
+            "へい"
+        ],
+        "kunyomi": [
+            "し(める)",
+            "と(じる)"
+        ],
+        "alpha": [
+            "hei"
+        ],
+        "meaning": [
+            "close"
+        ],
+        "id": "KN5_087"
+    },
+    {
+        "kanji": "入",
+        "onyomi": [
+            "にゅう"
+        ],
+        "kunyomi": [
+            "い(る)",
+            "はい(る)"
+        ],
+        "alpha": [
+            "nyuu"
+        ],
+        "meaning": [
+            "enter"
+        ],
+        "id": "KN5_088"
+    },
+    {
+        "kanji": "出",
+        "onyomi": [
+            "しゅつ"
+        ],
+        "kunyomi": [
+            "で(る)",
+            "だ(す)"
+        ],
+        "alpha": [
+            "shutsu"
+        ],
+        "meaning": [
+            "exit",
+            "go out"
+        ],
+        "id": "KN5_089"
+    },
+    {
+        "kanji": "乗",
+        "onyomi": [
+            "じょう"
+        ],
+        "kunyomi": [
+            "の(る)"
+        ],
+        "alpha": [
+            "jou"
+        ],
+        "meaning": [
+            "ride"
+        ],
+        "id": "KN5_090"
+    },
+    {
+        "kanji": "降",
+        "onyomi": [
+            "こう"
+        ],
+        "kunyomi": [
+            "お(りる)"
+        ],
+        "alpha": [
+            "kou"
+        ],
+        "meaning": [
+            "descend",
+            "get off"
+        ],
+        "id": "KN5_091"
+    },
+    {
+        "kanji": "作",
+        "onyomi": [
+            "さく"
+        ],
+        "kunyomi": [
+            "つく(る)"
+        ],
+        "alpha": [
+            "saku"
+        ],
+        "meaning": [
+            "make",
+            "create"
+        ],
+        "id": "KN5_092"
+    },
+    {
+        "kanji": "使",
+        "onyomi": [
+            "し"
+        ],
+        "kunyomi": [
+            "つか(う)"
+        ],
+        "alpha": [
+            "shi"
+        ],
+        "meaning": [
+            "use"
+        ],
+        "id": "KN5_093"
+    },
+    {
+        "kanji": "知",
+        "onyomi": [
+            "ち"
+        ],
+        "kunyomi": [
+            "し(る)"
+        ],
+        "alpha": [
+            "chi"
+        ],
+        "meaning": [
+            "know"
+        ],
+        "id": "KN5_094"
+    },
+    {
+        "kanji": "思",
+        "onyomi": [
+            "し"
+        ],
+        "kunyomi": [
+            "おも(う)"
+        ],
+        "alpha": [
+            "shi"
+        ],
+        "meaning": [
+            "think"
+        ],
+        "id": "KN5_095"
+    },
+    {
+        "kanji": "言",
+        "onyomi": [
+            "げん"
+        ],
+        "kunyomi": [
+            "い(う)"
+        ],
+        "alpha": [
+            "gen"
+        ],
+        "meaning": [
+            "say"
+        ],
+        "id": "KN5_096"
+    },
+    {
+        "kanji": "答",
+        "onyomi": [
+            "とう"
+        ],
+        "kunyomi": [
+            "こた(える)"
+        ],
+        "alpha": [
+            "tou"
+        ],
+        "meaning": [
+            "answer"
+        ],
+        "id": "KN5_097"
+    },
+    {
+        "kanji": "聞",
+        "onyomi": [
+            "ぶん"
+        ],
+        "kunyomi": [
+            "き(く)"
+        ],
+        "alpha": [
+            "bun"
+        ],
+        "meaning": [
+            "hear",
+            "listen"
+        ],
+        "id": "KN5_098"
+    },
+    {
+        "kanji": "話",
+        "onyomi": [
+            "わ"
+        ],
+        "kunyomi": [
+            "はな(す)"
+        ],
+        "alpha": [
+            "wa"
+        ],
+        "meaning": [
+            "talk",
+            "speak"
+        ],
+        "id": "KN5_099"
+    },
+    {
+        "kanji": "読",
+        "onyomi": [
+            "どく"
+        ],
+        "kunyomi": [
+            "よ(む)"
+        ],
+        "alpha": [
+            "doku"
+        ],
+        "meaning": [
+            "read"
+        ],
+        "id": "KN5_100"
+    },
+    {
+        "kanji": "書",
+        "onyomi": [
+            "しょ"
+        ],
+        "kunyomi": [
+            "か(く)"
+        ],
+        "alpha": [
+            "sho"
+        ],
+        "meaning": [
+            "write"
+        ],
+        "id": "KN5_101"
+    },
+    {
+        "kanji": "食",
+        "onyomi": [
+            "しょく"
+        ],
+        "kunyomi": [
+            "た(べる)"
+        ],
+        "alpha": [
+            "shoku"
+        ],
+        "meaning": [
+            "eat"
+        ],
+        "id": "KN5_102"
+    },
+    {
+        "kanji": "飲",
+        "onyomi": [
+            "いん"
+        ],
+        "kunyomi": [
+            "の(む)"
+        ],
+        "alpha": [
+            "in"
+        ],
+        "meaning": [
+            "drink"
+        ],
+        "id": "KN5_103"
+    },
+    {
+        "kanji": "買",
+        "onyomi": [
+            "ばい"
+        ],
+        "kunyomi": [
+            "か(う)"
+        ],
+        "alpha": [
+            "bai"
+        ],
+        "meaning": [
+            "buy"
+        ],
+        "id": "KN5_104"
+    },
+    {
+        "kanji": "売",
+        "onyomi": [
+            "ばい"
+        ],
+        "kunyomi": [
+            "う(る)"
+        ],
+        "alpha": [
+            "bai"
+        ],
+        "meaning": [
+            "sell"
+        ],
+        "id": "KN5_105"
+    },
+    {
+        "kanji": "立",
+        "onyomi": [
+            "りつ"
+        ],
+        "kunyomi": [
+            "た(つ)"
+        ],
+        "alpha": [
+            "ritsu"
+        ],
+        "meaning": [
+            "stand"
+        ],
+        "id": "KN5_106"
+    },
+    {
+        "kanji": "座",
+        "onyomi": [
+            "ざ"
+        ],
+        "kunyomi": [
+            "すわ(る)"
+        ],
+        "alpha": [
+            "za"
+        ],
+        "meaning": [
+            "sit"
+        ],
+        "id": "KN5_107"
+    },
+    {
+        "kanji": "帰",
+        "onyomi": [
+            "き"
+        ],
+        "kunyomi": [
+            "かえ(る)"
+        ],
+        "alpha": [
+            "ki"
+        ],
+        "meaning": [
+            "return",
+            "go home"
+        ],
+        "id": "KN5_108"
+    },
+    {
+        "kanji": "走",
+        "onyomi": [
+            "そう"
+        ],
+        "kunyomi": [
+            "はし(る)"
+        ],
+        "alpha": [
+            "sou"
+        ],
+        "meaning": [
+            "run"
+        ],
+        "id": "KN5_109"
+    },
+    {
+        "kanji": "歩",
+        "onyomi": [
+            "ほ"
+        ],
+        "kunyomi": [
+            "ある(く)"
+        ],
+        "alpha": [
+            "ho"
+        ],
+        "meaning": [
+            "walk"
+        ],
+        "id": "KN5_110"
+    },
+    {
+        "kanji": "止",
+        "onyomi": [
+            "し"
+        ],
+        "kunyomi": [
+            "と(まる)"
+        ],
+        "alpha": [
+            "shi"
+        ],
+        "meaning": [
+            "stop"
+        ],
+        "id": "KN5_111"
+    },
+    {
+        "kanji": "電",
+        "onyomi": [
+            "でん"
+        ],
+        "kunyomi": [],
+        "alpha": [
+            "den"
+        ],
+        "meaning": [
+            "electricity"
+        ],
+        "id": "KN5_112"
+    },
+    {
+        "kanji": "火",
+        "onyomi": [
+            "か"
+        ],
+        "kunyomi": [
+            "ひ"
+        ],
+        "alpha": [
+            "ka"
+        ],
+        "meaning": [
+            "fire"
+        ],
+        "id": "KN5_113"
+    }
+]

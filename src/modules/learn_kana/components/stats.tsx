@@ -46,8 +46,9 @@ export const StatsModal: FC<IProps> = ({ onCloseModal }) => {
                     className="border mb-3 p-4 rounded-lg shadow-lg bg-white relative overflow-hidden"
                   >
                     <div style={{ transformStyle: "preserve-3d" }}>
-                      <p className="text-3xl">{e.hira}</p>
-                      <p className="text-xs">{e.alpha}</p>
+                      <p className="text-6xl">{e.kanji}</p>
+                      <p className="text-xs">{e.onyomi} - {e.kunyomi}</p>
+                      <p className="text-xs">{e.meaning}</p>
                       <p className="text-xs">
                         {`Total Wrong : ${e.wrongCount}`}
                       </p>

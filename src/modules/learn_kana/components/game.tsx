@@ -139,62 +139,6 @@ export const KanaGame: FC<IProps> = ({ onBackToScreen, screen }) => {
   const onAnswerChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (cardAnswer === undefined) return
     setAnswer(e.target.value)
-    if (cardAnswer.meaning === undefined) {
-      if (e.target.value.length === cardAnswer?.alpha.length) {
-        if (cardAnswer.alpha === e.target.value.toLowerCase()) {
-          setShowCorrectAnimation(true)
-          setTotalCorrect(totalCorrect + 1)
-          setScore(score + 5)
-          dispatch(
-            updateKanaData({
-              id: cardAnswer.id,
-              wrongCount: cardAnswer.wrongCount,
-              correctCount: cardAnswer.correctCount + 1,
-            }),
-          )
-          setTimeout(() => setShowCorrectAnimation(false), 1000)
-          if (currentIndex < scrollSize) {
-            setWrongCount(0)
-            setCurrentIndex(currentIndex + 1)
-            setAnswer("")
-            setIsWrongAnswer(false)
-            setShowHelp(false)
-            setHelpCount(0)
-          } else {
-            let result = score
-            if (wrongAnswers.size === 0) {
-              result += 5
-            }
-            dispatch(
-              setResult({
-                level: (bb?.level ?? 0) + 1,
-                score: result * 2,
-                wrong: wrongAnswers.size,
-                correct: totalCorrect - wrongAnswers.size + 1,
-                timeSpent: formatTime(timeLeft),
-              }),
-            )
-            // reset
-            setTotalCorrect(0)
-            setTimeLeft(0)
-            setWrongAnswers(new Set())
-            onBackToScreen()
-          }
-        } else {
-          controls.start(shakeAnimation)
-          setIsWrongAnswer(true)
-          setWrongCount(wrongCount + 1)
-          setWrongAnswers(prev => new Set(prev).add(currentIndex))
-          dispatch(
-            updateKanaData({
-              id: cardAnswer.id,
-              wrongCount: cardAnswer.wrongCount + 1,
-              correctCount: cardAnswer.correctCount,
-            }),
-          )
-        }
-      }
-    }
   }
 
   useEffect(() => {
@@ -216,16 +160,15 @@ export const KanaGame: FC<IProps> = ({ onBackToScreen, screen }) => {
     <>
       <p>{`Round ${currentIndex + 1}`}</p>
       <p className="text-3xl font-bold text-center col-span-3">
-        {cardAnswer?.hira}
+        {cardAnswer?.kanji}
         {showHelp && (
           <p>
-            {cardAnswer?.alpha.split("").map((e, i) => (
+            {cardAnswer?.alpha?.map((e, i) => (
               <span
                 key={i}
                 className="ml-1 border-b-2 border-black min-w-[20px] min-h-[10px] inline-block"
               >
                 {e}
-                {/* {helpCount > i + 1 ? e : ""} */}
               </span>
             ))}
           </p>
