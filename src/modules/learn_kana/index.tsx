@@ -15,70 +15,15 @@ import { RootState } from "../../app/store"
 
 import kn5 from "../../assets/db/kanji_n5.json"
 import { IKanji } from "../../pages/types"
+import {
+  COMMON_UPGRADES,
+  UNCOMMON_UPGRADES,
+  RARE_UPGRADES,
+  EPIC_UPGRADES,
+  IUpg,
+} from "./types"
 
 interface IProps {}
-
-export interface IUpg {
-  name: string
-  description: string
-  id: string
-}
-
-const COMMON_UPGRADES: IUpg[] = [
-  {
-    name: "Kanji Essence",
-    description: "Add extra 5 kanji card",
-    id: "KANJI_EXTRA1",
-  },
-  {
-    name: "Hisho",
-    description: "Add extra 1 helper",
-    id: "HISHO_EXTRA",
-  },
-]
-
-const UNCOMMON_UPGRADES: IUpg[] = [
-  {
-    name: "Kanji Washi",
-    description: "Add extra 10 kanji card",
-    id: "KANJI_EXTRA2",
-  },
-  {
-    name: "Dai Hisho",
-    description: "Add extra 3 helper",
-    id: "HISHO_EXTRA2",
-  },
-]
-const RARE_UPGRADES: IUpg[] = [
-  {
-    name: "Kanji Orihon",
-    description: "Add extra 15 kanji card",
-    id: "KANJI_EXTRA3",
-  },
-  {
-    name: "Chiroshi",
-    description: "Reset all cards conditions",
-    id: "HISHO_CARD",
-  },
-  {
-    name: "Nooka",
-    description: "+5 answer size",
-    id: "SCROLL_EXTRA",
-  },
-  {
-    name: "Noomin",
-    description: "+10 answer size",
-    id: "SCROLL_EXTRA",
-  },
-]
-
-const EPIC_UPGRADES: IUpg[] = [
-  {
-    name: "Kanji Kansubon",
-    description: "Add extra 25 kanji card",
-    id: "KANJI_EXTRA4",
-  },
-]
 
 const getRandomUpgrade = () => {
   const rand = Math.random() * 100
@@ -114,6 +59,7 @@ const LearnKana: FC<IProps> = () => {
   const [scene, setScene] = useState("")
   const [showModalAch, setShowModalAch] = useState(false)
   const [showModal, setShowModal] = useState(false)
+  const [upgradePicked, setUpgradePicked] = useState(false);
 
   const [listUpgrade, setListUpgrade] = useState<IUpg[]>([])
 
@@ -141,13 +87,7 @@ const LearnKana: FC<IProps> = () => {
     setScene("PLAY")
   }
 
-  const onRePlay = (e?: IUpg) => {
-    if (e === undefined) {
-      dispatch(setListToPlayed())
-      setScene("PLAY")
-      return
-    }
-
+  const onPowerUp = (e: IUpg) => {
     if (e.id.includes("KANJI")) {
       let res: ILearnKana[] = [...data]
       let scoring = 5
@@ -207,10 +147,14 @@ const LearnKana: FC<IProps> = () => {
         }
       }
     }
+    setUpgradePicked(true);
+  }
 
+  const onRePlay = () => {
     // reset
     dispatch(setListToPlayed())
     setScene("PLAY")
+    setUpgradePicked(false);
   }
 
   const checkIsKanjiComplete = () => {
@@ -242,6 +186,7 @@ const LearnKana: FC<IProps> = () => {
       listUpgrade={listUpgrade}
       scene={scene}
       onRePlay={onRePlay}
+      onPowerUp={onPowerUp}
       onPlay={onPlay}
       onBackToScreen={onResetGame}
       showModal={showModal}
@@ -251,6 +196,8 @@ const LearnKana: FC<IProps> = () => {
       showModalAch={showModalAch}
       setModalAch={setShowModalAch}
       totalCard={data.length}
+      setUpgradePicked={setUpgradePicked}
+      upgradePicked={upgradePicked}
     />
   )
 }
