@@ -63,11 +63,6 @@ const initialState: IInitialProps = {
       status: false,
     },
     {
-      name: "Ready for japan!!!",
-      description: "Get perfect for 10 times in a row",
-      status: false,
-    },
-    {
       name: "Dreamer",
       description: "Collect every single achievement",
       status: false,

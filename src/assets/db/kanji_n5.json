@@ -7,9 +7,6 @@
         "kunyomi": [
             "ひと(つ)"
         ],
-        "alpha": [
-            "ichi"
-        ],
         "meaning": [
             "one"
         ],
@@ -23,9 +20,6 @@
         "kunyomi": [
             "ふた(つ)"
         ],
-        "alpha": [
-            "ni"
-        ],
         "meaning": [
             "two"
         ],
@@ -38,9 +32,6 @@
         ],
         "kunyomi": [
             "みっ(つ)"
-        ],
-        "alpha": [
-            "san"
         ],
         "meaning": [
             "three"
@@ -56,9 +47,6 @@
             "よん",
             "よっ(つ)"
         ],
-        "alpha": [
-            "shi"
-        ],
         "meaning": [
             "four"
         ],
@@ -71,9 +59,6 @@
         ],
         "kunyomi": [
             "いつ(つ)"
-        ],
-        "alpha": [
-            "go"
         ],
         "meaning": [
             "five"
@@ -88,9 +73,6 @@
         "kunyomi": [
             "むっ(つ)"
         ],
-        "alpha": [
-            "roku"
-        ],
         "meaning": [
             "six"
         ],
@@ -104,9 +86,6 @@
         "kunyomi": [
             "なな(つ)"
         ],
-        "alpha": [
-            "shichi"
-        ],
         "meaning": [
             "seven"
         ],
@@ -119,9 +98,6 @@
         ],
         "kunyomi": [
             "やっ(つ)"
-        ],
-        "alpha": [
-            "hachi"
         ],
         "meaning": [
             "eight"
@@ -137,10 +113,6 @@
         "kunyomi": [
             "ここの(つ)"
         ],
-        "alpha": [
-            "kyuu",
-            "ku"
-        ],
         "meaning": [
             "nine"
         ],
@@ -153,9 +125,6 @@
         ],
         "kunyomi": [
             "とお"
-        ],
-        "alpha": [
-            "juu"
         ],
         "meaning": [
             "ten"
@@ -170,9 +139,6 @@
         "kunyomi": [
             "もも"
         ],
-        "alpha": [
-            "hyaku"
-        ],
         "meaning": [
             "hundred"
         ],
@@ -185,9 +151,6 @@
         ],
         "kunyomi": [
             "ち"
-        ],
-        "alpha": [
-            "sen"
         ],
         "meaning": [
             "thousand"
@@ -203,10 +166,6 @@
         "kunyomi": [
             "よろず"
         ],
-        "alpha": [
-            "man",
-            "ban"
-        ],
         "meaning": [
             "ten thousand"
         ],
@@ -219,9 +178,6 @@
         ],
         "kunyomi": [
             "まる(い)"
-        ],
-        "alpha": [
-            "en"
         ],
         "meaning": [
             "yen",
@@ -238,10 +194,6 @@
         "kunyomi": [
             "くち"
         ],
-        "alpha": [
-            "kou",
-            "ku"
-        ],
         "meaning": [
             "mouth"
         ],
@@ -256,10 +208,6 @@
         "kunyomi": [
             "め"
         ],
-        "alpha": [
-            "moku",
-            "boku"
-        ],
         "meaning": [
             "eye"
         ],
@@ -272,9 +220,6 @@
         ],
         "kunyomi": [
             "みみ"
-        ],
-        "alpha": [
-            "ji"
         ],
         "meaning": [
             "ear"
@@ -289,9 +234,6 @@
         "kunyomi": [
             "て"
         ],
-        "alpha": [
-            "shu"
-        ],
         "meaning": [
             "hand"
         ],
@@ -305,9 +247,6 @@
         "kunyomi": [
             "あし",
             "た(りる)"
-        ],
-        "alpha": [
-            "soku"
         ],
         "meaning": [
             "foot",
@@ -324,10 +263,6 @@
         "kunyomi": [
             "ちから"
         ],
-        "alpha": [
-            "ryoku",
-            "riki"
-        ],
         "meaning": [
             "power",
             "strength"
@@ -342,10 +277,6 @@
         ],
         "kunyomi": [
             "おとこ"
-        ],
-        "alpha": [
-            "dan",
-            "nan"
         ],
         "meaning": [
             "man",
@@ -364,11 +295,6 @@
             "おんな",
             "め"
         ],
-        "alpha": [
-            "jo",
-            "nyo",
-            "nyou"
-        ],
         "meaning": [
             "woman",
             "female"
@@ -383,10 +309,6 @@
         ],
         "kunyomi": [
             "こ"
-        ],
-        "alpha": [
-            "shi",
-            "su"
         ],
         "meaning": [
             "child"
@@ -403,10 +325,6 @@
             "ひ",
             "か"
         ],
-        "alpha": [
-            "nichi",
-            "jitsu"
-        ],
         "meaning": [
             "day",
             "sun"
@@ -422,10 +340,6 @@
         "kunyomi": [
             "つき"
         ],
-        "alpha": [
-            "getsu",
-            "gatsu"
-        ],
         "meaning": [
             "month",
             "moon"
@@ -440,9 +354,6 @@
         "kunyomi": [
             "みず"
         ],
-        "alpha": [
-            "sui"
-        ],
         "meaning": [
             "water"
         ],
@@ -456,10 +367,6 @@
         ],
         "kunyomi": [
             "き"
-        ],
-        "alpha": [
-            "moku",
-            "boku"
         ],
         "meaning": [
             "tree",
@@ -476,10 +383,6 @@
         "kunyomi": [
             "かね"
         ],
-        "alpha": [
-            "kin",
-            "kon"
-        ],
         "meaning": [
             "gold",
             "money"
@@ -495,10 +398,6 @@
         "kunyomi": [
             "つち"
         ],
-        "alpha": [
-            "do",
-            "to"
-        ],
         "meaning": [
             "earth",
             "soil"
@@ -513,9 +412,6 @@
         "kunyomi": [
             "やま"
         ],
-        "alpha": [
-            "san"
-        ],
         "meaning": [
             "mountain"
         ],
@@ -528,9 +424,6 @@
         ],
         "kunyomi": [
             "かわ"
-        ],
-        "alpha": [
-            "sen"
         ],
         "meaning": [
             "river"
@@ -545,9 +438,6 @@
         "kunyomi": [
             "た"
         ],
-        "alpha": [
-            "den"
-        ],
         "meaning": [
             "rice field"
         ],
@@ -560,9 +450,6 @@
         ],
         "kunyomi": [
             "あま"
-        ],
-        "alpha": [
-            "ten"
         ],
         "meaning": [
             "heaven",
@@ -577,10 +464,6 @@
             "け"
         ],
         "kunyomi": [],
-        "alpha": [
-            "ki",
-            "ke"
-        ],
         "meaning": [
             "spirit",
             "energy"
@@ -595,9 +478,6 @@
         "kunyomi": [
             "そら",
             "から"
-        ],
-        "alpha": [
-            "kuu"
         ],
         "meaning": [
             "sky",
@@ -615,10 +495,6 @@
             "い(きる)",
             "う(まれる)"
         ],
-        "alpha": [
-            "sei",
-            "shou"
-        ],
         "meaning": [
             "life",
             "birth"
@@ -633,9 +509,6 @@
         "kunyomi": [
             "まな(ぶ)"
         ],
-        "alpha": [
-            "gaku"
-        ],
         "meaning": [
             "study",
             "learning"
@@ -648,9 +521,6 @@
             "こう"
         ],
         "kunyomi": [],
-        "alpha": [
-            "kou"
-        ],
         "meaning": [
             "school"
         ],
@@ -663,9 +533,6 @@
         ],
         "kunyomi": [
             "さき"
-        ],
-        "alpha": [
-            "sen"
         ],
         "meaning": [
             "before",
@@ -682,10 +549,6 @@
         "kunyomi": [
             "な"
         ],
-        "alpha": [
-            "mei",
-            "myou"
-        ],
         "meaning": [
             "name"
         ],
@@ -699,9 +562,6 @@
         "kunyomi": [
             "とし"
         ],
-        "alpha": [
-            "nen"
-        ],
         "meaning": [
             "year"
         ],
@@ -714,9 +574,6 @@
         ],
         "kunyomi": [
             "とき"
-        ],
-        "alpha": [
-            "ji"
         ],
         "meaning": [
             "time",
@@ -732,9 +589,6 @@
         "kunyomi": [
             "いま"
         ],
-        "alpha": [
-            "kon"
-        ],
         "meaning": [
             "now"
         ],
@@ -746,9 +600,6 @@
             "ご"
         ],
         "kunyomi": [],
-        "alpha": [
-            "go"
-        ],
         "meaning": [
             "noon"
         ],
@@ -764,10 +615,6 @@
             "あと",
             "うし(ろ)"
         ],
-        "alpha": [
-            "go",
-            "kou"
-        ],
         "meaning": [
             "after",
             "behind"
@@ -781,9 +628,6 @@
         ],
         "kunyomi": [
             "まえ"
-        ],
-        "alpha": [
-            "zen"
         ],
         "meaning": [
             "before",
@@ -799,9 +643,6 @@
         "kunyomi": [
             "ひがし"
         ],
-        "alpha": [
-            "tou"
-        ],
         "meaning": [
             "east"
         ],
@@ -816,10 +657,6 @@
         "kunyomi": [
             "にし"
         ],
-        "alpha": [
-            "sei",
-            "sai"
-        ],
         "meaning": [
             "west"
         ],
@@ -832,9 +669,6 @@
         ],
         "kunyomi": [
             "みなみ"
-        ],
-        "alpha": [
-            "nan"
         ],
         "meaning": [
             "south"
@@ -849,9 +683,6 @@
         "kunyomi": [
             "きた"
         ],
-        "alpha": [
-            "hoku"
-        ],
         "meaning": [
             "north"
         ],
@@ -864,9 +695,6 @@
         ],
         "kunyomi": [
             "しろ"
-        ],
-        "alpha": [
-            "haku"
         ],
         "meaning": [
             "white"
@@ -881,9 +709,6 @@
         "kunyomi": [
             "あか"
         ],
-        "alpha": [
-            "seki"
-        ],
         "meaning": [
             "red"
         ],
@@ -897,9 +722,6 @@
         "kunyomi": [
             "あお"
         ],
-        "alpha": [
-            "sei"
-        ],
         "meaning": [
             "blue"
         ],
@@ -912,9 +734,6 @@
         ],
         "kunyomi": [
             "くろ"
-        ],
-        "alpha": [
-            "koku"
         ],
         "meaning": [
             "black"
@@ -930,10 +749,6 @@
         "kunyomi": [
             "おお(きい)"
         ],
-        "alpha": [
-            "dai",
-            "tai"
-        ],
         "meaning": [
             "big",
             "large"
@@ -948,9 +763,6 @@
         "kunyomi": [
             "ちい(さい)"
         ],
-        "alpha": [
-            "shou"
-        ],
         "meaning": [
             "small"
         ],
@@ -963,9 +775,6 @@
         ],
         "kunyomi": [
             "たか(い)"
-        ],
-        "alpha": [
-            "kou"
         ],
         "meaning": [
             "high",
@@ -981,9 +790,6 @@
         "kunyomi": [
             "やす(い)"
         ],
-        "alpha": [
-            "an"
-        ],
         "meaning": [
             "cheap",
             "safe"
@@ -998,9 +804,6 @@
         "kunyomi": [
             "あたら(しい)"
         ],
-        "alpha": [
-            "shin"
-        ],
         "meaning": [
             "new"
         ],
@@ -1014,9 +817,6 @@
         "kunyomi": [
             "ふる(い)"
         ],
-        "alpha": [
-            "ko"
-        ],
         "meaning": [
             "old"
         ],
@@ -1029,9 +829,6 @@
         ],
         "kunyomi": [
             "はや(い)"
-        ],
-        "alpha": [
-            "sou"
         ],
         "meaning": [
             "early",
@@ -1047,9 +844,6 @@
         "kunyomi": [
             "なが(い)"
         ],
-        "alpha": [
-            "chou"
-        ],
         "meaning": [
             "long"
         ],
@@ -1062,9 +856,6 @@
         ],
         "kunyomi": [
             "あか(るい)"
-        ],
-        "alpha": [
-            "mei"
         ],
         "meaning": [
             "bright"
@@ -1079,10 +870,6 @@
         ],
         "kunyomi": [
             "たの(しい)"
-        ],
-        "alpha": [
-            "gaku",
-            "raku"
         ],
         "meaning": [
             "fun",
@@ -1099,9 +886,6 @@
             "い(く)",
             "おこな(う)"
         ],
-        "alpha": [
-            "kou"
-        ],
         "meaning": [
             "go",
             "conduct"
@@ -1116,9 +900,6 @@
         "kunyomi": [
             "く(る)"
         ],
-        "alpha": [
-            "rai"
-        ],
         "meaning": [
             "come"
         ],
@@ -1131,9 +912,6 @@
         ],
         "kunyomi": [
             "かえ(る)"
-        ],
-        "alpha": [
-            "ki"
         ],
         "meaning": [
             "return"
@@ -1148,9 +926,6 @@
         "kunyomi": [
             "た(べる)"
         ],
-        "alpha": [
-            "shoku"
-        ],
         "meaning": [
             "eat"
         ],
@@ -1163,9 +938,6 @@
         ],
         "kunyomi": [
             "の(む)"
-        ],
-        "alpha": [
-            "in"
         ],
         "meaning": [
             "drink"
@@ -1180,9 +952,6 @@
         "kunyomi": [
             "み(る)"
         ],
-        "alpha": [
-            "ken"
-        ],
         "meaning": [
             "see"
         ],
@@ -1195,9 +964,6 @@
         ],
         "kunyomi": [
             "き(く)"
-        ],
-        "alpha": [
-            "bun"
         ],
         "meaning": [
             "hear",
@@ -1213,9 +979,6 @@
         "kunyomi": [
             "か(く)"
         ],
-        "alpha": [
-            "sho"
-        ],
         "meaning": [
             "write"
         ],
@@ -1229,9 +992,6 @@
         "kunyomi": [
             "よ(む)"
         ],
-        "alpha": [
-            "doku"
-        ],
         "meaning": [
             "read"
         ],
@@ -1244,9 +1004,6 @@
         ],
         "kunyomi": [
             "はな(す)"
-        ],
-        "alpha": [
-            "wa"
         ],
         "meaning": [
             "talk",
@@ -1262,9 +1019,6 @@
         "kunyomi": [
             "か(う)"
         ],
-        "alpha": [
-            "bai"
-        ],
         "meaning": [
             "buy"
         ],
@@ -1277,9 +1031,6 @@
         ],
         "kunyomi": [
             "う(る)"
-        ],
-        "alpha": [
-            "bai"
         ],
         "meaning": [
             "sell"
@@ -1294,9 +1045,6 @@
         "kunyomi": [
             "おし(える)"
         ],
-        "alpha": [
-            "kyou"
-        ],
         "meaning": [
             "teach"
         ],
@@ -1309,9 +1057,6 @@
         ],
         "kunyomi": [
             "なら(う)"
-        ],
-        "alpha": [
-            "shuu"
         ],
         "meaning": [
             "learn"
@@ -1326,9 +1071,6 @@
         "kunyomi": [
             "ま(つ)"
         ],
-        "alpha": [
-            "tai"
-        ],
         "meaning": [
             "wait"
         ],
@@ -1341,9 +1083,6 @@
         ],
         "kunyomi": [
             "も(つ)"
-        ],
-        "alpha": [
-            "ji"
         ],
         "meaning": [
             "hold",
@@ -1359,9 +1098,6 @@
         "kunyomi": [
             "す(む)"
         ],
-        "alpha": [
-            "juu"
-        ],
         "meaning": [
             "live",
             "reside"
@@ -1376,9 +1112,6 @@
         "kunyomi": [
             "はたら(く)"
         ],
-        "alpha": [
-            "dou"
-        ],
         "meaning": [
             "work"
         ],
@@ -1391,9 +1124,6 @@
         ],
         "kunyomi": [
             "はし(る)"
-        ],
-        "alpha": [
-            "sou"
         ],
         "meaning": [
             "run"
@@ -1408,9 +1138,6 @@
         "kunyomi": [
             "ある(く)"
         ],
-        "alpha": [
-            "ho"
-        ],
         "meaning": [
             "walk"
         ],
@@ -1423,9 +1150,6 @@
         ],
         "kunyomi": [
             "と(まる)"
-        ],
-        "alpha": [
-            "shi"
         ],
         "meaning": [
             "stop"
@@ -1441,9 +1165,6 @@
             "あ(ける)",
             "ひら(く)"
         ],
-        "alpha": [
-            "kai"
-        ],
         "meaning": [
             "open"
         ],
@@ -1457,9 +1178,6 @@
         "kunyomi": [
             "し(める)",
             "と(じる)"
-        ],
-        "alpha": [
-            "hei"
         ],
         "meaning": [
             "close"
@@ -1475,9 +1193,6 @@
             "い(る)",
             "はい(る)"
         ],
-        "alpha": [
-            "nyuu"
-        ],
         "meaning": [
             "enter"
         ],
@@ -1491,9 +1206,6 @@
         "kunyomi": [
             "で(る)",
             "だ(す)"
-        ],
-        "alpha": [
-            "shutsu"
         ],
         "meaning": [
             "exit",
@@ -1509,9 +1221,6 @@
         "kunyomi": [
             "の(る)"
         ],
-        "alpha": [
-            "jou"
-        ],
         "meaning": [
             "ride"
         ],
@@ -1524,9 +1233,6 @@
         ],
         "kunyomi": [
             "お(りる)"
-        ],
-        "alpha": [
-            "kou"
         ],
         "meaning": [
             "descend",
@@ -1542,9 +1248,6 @@
         "kunyomi": [
             "つく(る)"
         ],
-        "alpha": [
-            "saku"
-        ],
         "meaning": [
             "make",
             "create"
@@ -1559,9 +1262,6 @@
         "kunyomi": [
             "つか(う)"
         ],
-        "alpha": [
-            "shi"
-        ],
         "meaning": [
             "use"
         ],
@@ -1574,9 +1274,6 @@
         ],
         "kunyomi": [
             "し(る)"
-        ],
-        "alpha": [
-            "chi"
         ],
         "meaning": [
             "know"
@@ -1591,9 +1288,6 @@
         "kunyomi": [
             "おも(う)"
         ],
-        "alpha": [
-            "shi"
-        ],
         "meaning": [
             "think"
         ],
@@ -1606,9 +1300,6 @@
         ],
         "kunyomi": [
             "い(う)"
-        ],
-        "alpha": [
-            "gen"
         ],
         "meaning": [
             "say"
@@ -1623,9 +1314,6 @@
         "kunyomi": [
             "こた(える)"
         ],
-        "alpha": [
-            "tou"
-        ],
         "meaning": [
             "answer"
         ],
@@ -1638,9 +1326,6 @@
         ],
         "kunyomi": [
             "き(く)"
-        ],
-        "alpha": [
-            "bun"
         ],
         "meaning": [
             "hear",
@@ -1656,9 +1341,6 @@
         "kunyomi": [
             "はな(す)"
         ],
-        "alpha": [
-            "wa"
-        ],
         "meaning": [
             "talk",
             "speak"
@@ -1673,9 +1355,6 @@
         "kunyomi": [
             "よ(む)"
         ],
-        "alpha": [
-            "doku"
-        ],
         "meaning": [
             "read"
         ],
@@ -1688,9 +1367,6 @@
         ],
         "kunyomi": [
             "か(く)"
-        ],
-        "alpha": [
-            "sho"
         ],
         "meaning": [
             "write"
@@ -1705,9 +1381,6 @@
         "kunyomi": [
             "た(べる)"
         ],
-        "alpha": [
-            "shoku"
-        ],
         "meaning": [
             "eat"
         ],
@@ -1720,9 +1393,6 @@
         ],
         "kunyomi": [
             "の(む)"
-        ],
-        "alpha": [
-            "in"
         ],
         "meaning": [
             "drink"
@@ -1737,9 +1407,6 @@
         "kunyomi": [
             "か(う)"
         ],
-        "alpha": [
-            "bai"
-        ],
         "meaning": [
             "buy"
         ],
@@ -1752,9 +1419,6 @@
         ],
         "kunyomi": [
             "う(る)"
-        ],
-        "alpha": [
-            "bai"
         ],
         "meaning": [
             "sell"
@@ -1769,9 +1433,6 @@
         "kunyomi": [
             "た(つ)"
         ],
-        "alpha": [
-            "ritsu"
-        ],
         "meaning": [
             "stand"
         ],
@@ -1785,9 +1446,6 @@
         "kunyomi": [
             "すわ(る)"
         ],
-        "alpha": [
-            "za"
-        ],
         "meaning": [
             "sit"
         ],
@@ -1800,9 +1458,6 @@
         ],
         "kunyomi": [
             "かえ(る)"
-        ],
-        "alpha": [
-            "ki"
         ],
         "meaning": [
             "return",
@@ -1818,9 +1473,6 @@
         "kunyomi": [
             "はし(る)"
         ],
-        "alpha": [
-            "sou"
-        ],
         "meaning": [
             "run"
         ],
@@ -1833,9 +1485,6 @@
         ],
         "kunyomi": [
             "ある(く)"
-        ],
-        "alpha": [
-            "ho"
         ],
         "meaning": [
             "walk"
@@ -1850,9 +1499,6 @@
         "kunyomi": [
             "と(まる)"
         ],
-        "alpha": [
-            "shi"
-        ],
         "meaning": [
             "stop"
         ],
@@ -1864,9 +1510,6 @@
             "でん"
         ],
         "kunyomi": [],
-        "alpha": [
-            "den"
-        ],
         "meaning": [
             "electricity"
         ],
@@ -1879,9 +1522,6 @@
         ],
         "kunyomi": [
             "ひ"
-        ],
-        "alpha": [
-            "ka"
         ],
         "meaning": [
             "fire"

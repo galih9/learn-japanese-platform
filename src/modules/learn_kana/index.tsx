@@ -26,7 +26,7 @@ export interface IUpg {
 
 const COMMON_UPGRADES: IUpg[] = [
   {
-    name: "Kanji Mokkan",
+    name: "Kanji Essence",
     description: "Add extra 5 kanji card",
     id: "KANJI_EXTRA1",
   },
@@ -51,7 +51,7 @@ const UNCOMMON_UPGRADES: IUpg[] = [
 ]
 const RARE_UPGRADES: IUpg[] = [
   {
-    name: "Kanji Kansubon",
+    name: "Kanji Orihon",
     description: "Add extra 15 kanji card",
     id: "KANJI_EXTRA3",
   },
@@ -74,7 +74,7 @@ const RARE_UPGRADES: IUpg[] = [
 
 const EPIC_UPGRADES: IUpg[] = [
   {
-    name: "Kanji Orihon",
+    name: "Kanji Kansubon",
     description: "Add extra 25 kanji card",
     id: "KANJI_EXTRA4",
   },
@@ -125,7 +125,6 @@ const LearnKana: FC<IProps> = () => {
         kanji: kn5[nums].kanji,
         onyomi: kn5[nums].onyomi,
         kunyomi: kn5[nums].kunyomi,
-        alpha: kn5[nums].alpha,
         meaning: kn5[nums].meaning,
         id: kn5[nums].id,
         score: 5,
@@ -152,31 +151,30 @@ const LearnKana: FC<IProps> = () => {
     if (e.id.includes("KANJI")) {
       let res: ILearnKana[] = [...data]
       let scoring = 5
-      // Get all hiragana IDs currently in data
+      // Get all kanji IDs currently in data
       const onlyHira = data.filter(item => item.id.includes("KN5"))
       const currentIds = new Set(onlyHira.map(item => item.id))
 
-      // Filter hiragana to get only those not in current data
-      let unclaimedHira: any[] = kn5.filter(item => !currentIds.has(item.id))
+      // Filter kanji to get only those not in current data
+      let unclaimedKanjin5: any[] = kn5.filter(item => !currentIds.has(item.id))
 
       // Shuffle the unclaimedHira array
-      for (let i = unclaimedHira.length - 1; i > 0; i--) {
+      for (let i = unclaimedKanjin5.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1))
-        ;[unclaimedHira[i], unclaimedHira[j]] = [
-          unclaimedHira[j],
-          unclaimedHira[i],
+        ;[unclaimedKanjin5[i], unclaimedKanjin5[j]] = [
+          unclaimedKanjin5[j],
+          unclaimedKanjin5[i],
         ]
       }
 
       let addSize = e.id.includes("EXTRA") && !e.id.includes("2") ? 5 : 10
 
-      for (let i = 0; i < addSize && i < unclaimedHira.length; i++) {
-        const item: IKanji = unclaimedHira[i]
+      for (let i = 0; i < addSize && i < unclaimedKanjin5.length; i++) {
+        const item: IKanji = unclaimedKanjin5[i]
         res.push({
           kanji: item.kanji,
           onyomi: item.onyomi,
           kunyomi: item.kunyomi,
-          alpha: item.alpha,
           id: item.id,
           meaning: item.meaning,
           score: scoring,

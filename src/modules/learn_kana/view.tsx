@@ -57,26 +57,21 @@ export const View: FC<IProps> = ({
                       >
                         <p className="font-bold">{e.name}</p>
                         <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 invisible group-hover:visible w-48 p-2 bg-gray-800 text-white text-xs rounded-md shadow-lg">
-                          {e.description}
+                          <p className="font-bold">{e.name}</p>
+                          <p>{e.description}</p>
                         </div>
                       </div>
                     ))}
                   </div>
                 </>
               )}
-              {/* <button
-                className={`${result != null ? "px-1 py-1 text-xs bg-gray-300" : "px-4 py-2 bg-blue-500"} text-white font-bold rounded hover:bg-blue-700 transition duration-300`}
-                onClick={() => (result != null ? onRePlay() : onPlay())}
-              >
-                {`${result != null ? "Play Without Upgrade" : "Play"}`}
-              </button> */}
 
               {result != null && (
                 <div className="p-3 bg-white shadow-md rounded-lg">
                   <KanaIndicator setModal={setModal} totalHelp={helper} />
-                  <div className="flex">
+                  <div className="flex my-3">
                     <p
-                      className=" cursor-pointer"
+                      className="cursor-pointer px-4 py-2 bg-blue-500 text-white font-bold rounded hover:bg-blue-700 transition duration-300"
                       onClick={() => {
                         setModal(true)
                       }}
@@ -86,7 +81,7 @@ export const View: FC<IProps> = ({
                   </div>
                   <div className="flex">
                     <p
-                      className=" cursor-pointer"
+                      className="cursor-pointer px-4 py-2 bg-blue-500 text-white font-bold rounded hover:bg-blue-700 transition duration-300"
                       onClick={() => {
                         setModalAch(true)
                       }}
@@ -146,10 +141,10 @@ export const View: FC<IProps> = ({
               >
                 {`Play`}
               </button>
-
+              <p>{"You should learn before playing ;)"}</p>
               <div className="flex">
                 <p
-                  className=" cursor-pointer"
+                  className="cursor-pointer px-4 py-2 bg-blue-500 text-white font-bold rounded hover:bg-blue-700 transition duration-300"
                   onClick={() => {
                     setModal(true)
                   }}
@@ -166,3 +161,22 @@ export const View: FC<IProps> = ({
     </>
   )
 }
+
+// import Kanji from "../../assets/images/kanji_card.png"
+// <div
+//   onClick={() => onRePlay(e)}
+//   className="cursor-pointer rounded-lg transition duration-300 relative group"
+//   style={{
+//     backgroundImage: `url(${Kanji})`,
+//     backgroundSize: "contain",
+//     backgroundPosition: "center",
+//     backgroundRepeat: "no-repeat",
+//     imageRendering: "pixelated",
+//     aspectRatio: "1 / 1"
+//   }}
+// >
+//   <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 invisible group-hover:visible w-48 p-2 bg-gray-800 text-white text-xs rounded-md shadow-lg">
+//     <p className="font-bold">{e.name}</p>
+//     <p>{e.description}</p>
+//   </div>
+// </div>

@@ -12,7 +12,6 @@ export type IKanji = {
   kanji: string;
   onyomi: string[]
   kunyomi: string[]
-  alpha: string[]
   id: string
   score: number
   modifier?: string

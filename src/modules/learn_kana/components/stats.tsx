@@ -2,6 +2,7 @@ import { FC, useState } from "react"
 import { useSelector } from "react-redux"
 import { RootState } from "../../../app/store"
 import { motion } from "framer-motion"
+import { hiraganaToText } from "../../../utils/data"
 
 type IProps = {
   onCloseModal: React.Dispatch<React.SetStateAction<boolean>>
@@ -47,14 +48,14 @@ export const StatsModal: FC<IProps> = ({ onCloseModal }) => {
                   >
                     <div style={{ transformStyle: "preserve-3d" }}>
                       <p className="text-6xl">{e.kanji}</p>
-                      <p className="text-xs">{e.onyomi} - {e.kunyomi}</p>
+                      <p className="text-xs">{e.onyomi[0]}</p>
+                      <p className="text-xs">
+                        {`${hiraganaToText(e.onyomi[0])}`}
+                      </p>
                       <p className="text-xs">{e.meaning}</p>
-                      <p className="text-xs">
-                        {`Total Wrong : ${e.wrongCount}`}
-                      </p>
-                      <p className="text-xs">
-                        {`Total Correct : ${e.correctCount}`}
-                      </p>
+                      <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 invisible group-hover:visible w-48 p-2 bg-gray-800 text-white text-xs rounded-md shadow-lg">
+                        {e.meaning}
+                      </div>
                     </div>
                   </motion.div>
                 ))}

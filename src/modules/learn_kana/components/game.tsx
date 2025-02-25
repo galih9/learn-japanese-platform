@@ -4,6 +4,7 @@ import { RootState } from "../../../app/store"
 import { motion, useAnimation } from "motion/react"
 import { ILearnKana, setResult, updateHelper, updateKanaData } from "../slice"
 import { formatTime } from "../../../utils/time"
+import { hiraganaToText } from "../../../utils/data"
 
 interface IProps {
   onBackToScreen: () => void
@@ -81,6 +82,18 @@ export const KanaGame: FC<IProps> = ({ onBackToScreen, screen }) => {
           break
         }
       }
+      // match text
+      const onyomi_answer = hiraganaToText(cardAnswer.onyomi[0])
+      const kunyomi_answer = hiraganaToText(cardAnswer.kunyomi[0])
+      if (onyomi_answer != "" && kunyomi_answer != "" && !isMatch) {
+        if (
+          answer.toLowerCase() === onyomi_answer.toLowerCase() ||
+          answer.toLowerCase() === kunyomi_answer.toLowerCase()
+        ) {
+          isMatch = true
+        }
+      }
+
       if (isMatch) {
         setShowCorrectAnimation(true)
         setTotalCorrect(totalCorrect + 1)
@@ -163,14 +176,16 @@ export const KanaGame: FC<IProps> = ({ onBackToScreen, screen }) => {
         {cardAnswer?.kanji}
         {showHelp && (
           <p>
-            {cardAnswer?.alpha?.map((e, i) => (
-              <span
-                key={i}
-                className="ml-1 border-b-2 border-black min-w-[20px] min-h-[10px] inline-block"
-              >
-                {e}
-              </span>
-            ))}
+            {hiraganaToText(cardAnswer?.onyomi[0] ?? "")
+              .split("")
+              .map((e, i) => (
+                <span
+                  key={i}
+                  className="ml-1 border-b-2 border-black min-w-[20px] min-h-[10px] inline-block"
+                >
+                  {e}
+                </span>
+              ))}
           </p>
         )}
         {cardAnswer?.meaning && showHelp && (
@@ -202,7 +217,9 @@ export const KanaGame: FC<IProps> = ({ onBackToScreen, screen }) => {
         {formatTime(timeLeft)}
         {cardAnswer?.meaning && (
           <p className="text-xs pb-1 flex">
-            {"*Type the meaning and click submit button"}
+            {
+              "*Type the meaning or onyomi reading or kunyomi reading and click submit button"
+            }
           </p>
         )}
         <motion.input
